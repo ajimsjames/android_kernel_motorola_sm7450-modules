@@ -1,0 +1,61 @@
+# add -Wall to try to catch everything we can.
+EXTRA_CFLAGS += -Wall
+EXTRA_CFLAGS += -I$(KERNEL_SRC)/../sm7450-modules/motorola/include
+EXTRA_CFLAGS += -I$(KERNEL_SRC)/drivers/base
+
+ifneq ($(filter m y,$(CONFIG_SX933X_USB_CAL)),)
+	EXTRA_CFLAGS += -DCONFIG_CAPSENSE_USB_CAL
+endif
+
+ifneq ($(filter m y,$(CONFIG_SX933X_FLIP_CAL)),)
+	EXTRA_CFLAGS += -DCONFIG_CAPSENSE_FLIP_CAL
+endif
+
+ifneq (,$(findstring river, $(TARGET_PRODUCT)))
+EXTRA_CFLAGS += -DCONFIG_CAPSENSE_USB_CAL
+endif
+
+ifneq (,$(findstring doha, $(TARGET_PRODUCT)))
+EXTRA_CFLAGS += -DCONFIG_CAPSENSE_USB_CAL
+endif
+
+ifneq (,$(findstring sofia, $(TARGET_PRODUCT)))
+EXTRA_CFLAGS += -DCONFIG_CAPSENSE_USB_CAL
+endif
+
+ifneq (,$(findstring odin, $(TARGET_PRODUCT)))
+EXTRA_CFLAGS += -DCONFIG_CAPSENSE_USB_CAL \
+		-DCONFIG_CAPSENSE_ATTACH_CAL
+endif
+
+ifneq (,$(findstring olson, $(TARGET_PRODUCT)))
+EXTRA_CFLAGS += -DCONFIG_CAPSENSE_USB_CAL \
+		-DCONFIG_CAPSENSE_FLIP_CAL
+endif
+
+ifneq (,$(findstring rav, $(TARGET_PRODUCT)))
+EXTRA_CFLAGS += -DCONFIG_CAPSENSE_USB_CAL
+endif
+
+ifneq (,$(findstring burton, $(TARGET_PRODUCT)))
+EXTRA_CFLAGS += -DCONFIG_CAPSENSE_USB_CAL
+endif
+
+ifneq (,$(or $(findstring smith,$(TARGET_PRODUCT)),$(findstring nairo,$(TARGET_PRODUCT))))
+EXTRA_CFLAGS += -DCONFIG_CAPSENSE_USB_CAL
+endif
+
+ifneq (,$(findstring racer, $(TARGET_PRODUCT)))
+EXTRA_CFLAGS += -DCONFIG_CAPSENSE_USB_CAL
+EXTRA_CFLAGS += -DCONFIG_CAPSENSE_HEADSET_STATE
+endif
+
+ifneq (,$(findstring kiev, $(TARGET_PRODUCT)))
+EXTRA_CFLAGS += -DCONFIG_CAPSENSE_USB_CAL
+endif
+
+KBUILD_EXTRA_SYMBOLS += $(CURDIR)/$(KBUILD_EXTMOD)/../../sensors/Module.symvers
+
+sx932x_sar-y := sx933x_sar.o
+
+obj-m += sx933x_sar.o

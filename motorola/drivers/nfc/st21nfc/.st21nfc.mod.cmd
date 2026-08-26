@@ -1,0 +1,1 @@
+cmd_/home/aju/Android/evox/kernel/motorola/sm7450-modules/motorola/drivers/nfc/st21nfc/st21nfc.mod := { echo  /home/aju/Android/evox/kernel/motorola/sm7450-modules/motorola/drivers/nfc/st21nfc/st21nfc.o;  echo; } > /home/aju/Android/evox/kernel/motorola/sm7450-modules/motorola/drivers/nfc/st21nfc/st21nfc.mod

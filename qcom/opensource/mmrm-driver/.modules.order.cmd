@@ -1,0 +1,1 @@
+cmd_/home/aju/Android/evox/kernel/motorola/sm7450-modules/qcom/opensource/mmrm-driver/modules.order := {   cat /home/aju/Android/evox/kernel/motorola/sm7450-modules/qcom/opensource/mmrm-driver/driver/modules.order; :; } | awk '!x[$$0]++' - > /home/aju/Android/evox/kernel/motorola/sm7450-modules/qcom/opensource/mmrm-driver/modules.order

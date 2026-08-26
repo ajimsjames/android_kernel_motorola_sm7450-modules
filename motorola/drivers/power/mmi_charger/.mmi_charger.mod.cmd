@@ -1,0 +1,1 @@
+cmd_/home/aju/Android/evox/kernel/motorola/sm7450-modules/motorola/drivers/power/mmi_charger/mmi_charger.mod := { echo  /home/aju/Android/evox/kernel/motorola/sm7450-modules/motorola/drivers/power/mmi_charger/mmi_charger.o;  echo; } > /home/aju/Android/evox/kernel/motorola/sm7450-modules/motorola/drivers/power/mmi_charger/mmi_charger.mod

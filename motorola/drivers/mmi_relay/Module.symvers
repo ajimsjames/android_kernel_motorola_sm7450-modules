@@ -1,0 +1,3 @@
+0x8223981a	relay_register_action	/home/aju/Android/evox/kernel/motorola/sm7450-modules/motorola/drivers/mmi_relay/mmi_relay	EXPORT_SYMBOL_GPL	
+0x26a8ddbc	relay_unregister_action	/home/aju/Android/evox/kernel/motorola/sm7450-modules/motorola/drivers/mmi_relay/mmi_relay	EXPORT_SYMBOL_GPL	
+0xa16fb596	relay_notifier_fire	/home/aju/Android/evox/kernel/motorola/sm7450-modules/motorola/drivers/mmi_relay/mmi_relay	EXPORT_SYMBOL_GPL	

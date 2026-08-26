@@ -1,0 +1,1 @@
+cmd_/home/aju/Android/evox/kernel/motorola/sm7450-modules/qcom/opensource/datarmnet-ext/perf/rmnet_perf.mod := { echo  /home/aju/Android/evox/kernel/motorola/sm7450-modules/qcom/opensource/datarmnet-ext/perf/rmnet_perf_main.o;  echo; } > /home/aju/Android/evox/kernel/motorola/sm7450-modules/qcom/opensource/datarmnet-ext/perf/rmnet_perf.mod

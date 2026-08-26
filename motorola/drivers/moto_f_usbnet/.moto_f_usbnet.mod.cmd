@@ -1,0 +1,1 @@
+cmd_/home/aju/Android/evox/kernel/motorola/sm7450-modules/motorola/drivers/moto_f_usbnet/moto_f_usbnet.mod := { echo  /home/aju/Android/evox/kernel/motorola/sm7450-modules/motorola/drivers/moto_f_usbnet/f_usbnet.o;  echo; } > /home/aju/Android/evox/kernel/motorola/sm7450-modules/motorola/drivers/moto_f_usbnet/moto_f_usbnet.mod

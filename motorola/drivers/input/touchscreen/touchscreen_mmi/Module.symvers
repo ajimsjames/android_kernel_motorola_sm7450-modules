@@ -1,0 +1,3 @@
+0x407630b3	ts_mmi_dev_register	/home/aju/Android/evox/kernel/motorola/sm7450-modules/motorola/drivers/input/touchscreen/touchscreen_mmi/touchscreen_mmi	EXPORT_SYMBOL	
+0x8ab5847f	ts_mmi_dev_unregister	/home/aju/Android/evox/kernel/motorola/sm7450-modules/motorola/drivers/input/touchscreen/touchscreen_mmi/touchscreen_mmi	EXPORT_SYMBOL	
+0x94baa889	ts_mmi_is_panel_match	/home/aju/Android/evox/kernel/motorola/sm7450-modules/motorola/drivers/input/touchscreen/touchscreen_mmi/touchscreen_mmi	EXPORT_SYMBOL	

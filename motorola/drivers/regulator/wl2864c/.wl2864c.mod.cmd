@@ -1,0 +1,1 @@
+cmd_/home/aju/Android/evox/kernel/motorola/sm7450-modules/motorola/drivers/regulator/wl2864c/wl2864c.mod := { echo  /home/aju/Android/evox/kernel/motorola/sm7450-modules/motorola/drivers/regulator/wl2864c/wl2864c-regulator.o;  echo; } > /home/aju/Android/evox/kernel/motorola/sm7450-modules/motorola/drivers/regulator/wl2864c/wl2864c.mod

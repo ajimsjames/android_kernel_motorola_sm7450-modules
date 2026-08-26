@@ -1,0 +1,1 @@
+cmd_/home/aju/Android/evox/kernel/motorola/sm7450-modules/qcom/opensource/wlan/qcacld-3.0/modules.order := {   echo /home/aju/Android/evox/kernel/motorola/sm7450-modules/qcom/opensource/wlan/qcacld-3.0/qca_cld3_qca6750.ko; :; } | awk '!x[$$0]++' - > /home/aju/Android/evox/kernel/motorola/sm7450-modules/qcom/opensource/wlan/qcacld-3.0/modules.order

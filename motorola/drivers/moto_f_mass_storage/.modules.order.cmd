@@ -1,0 +1,1 @@
+cmd_/home/aju/Android/evox/kernel/motorola/sm7450-modules/motorola/drivers/moto_f_mass_storage/modules.order := {   echo /home/aju/Android/evox/kernel/motorola/sm7450-modules/motorola/drivers/moto_f_mass_storage/moto_f_mass_storage.ko; :; } | awk '!x[$$0]++' - > /home/aju/Android/evox/kernel/motorola/sm7450-modules/motorola/drivers/moto_f_mass_storage/modules.order

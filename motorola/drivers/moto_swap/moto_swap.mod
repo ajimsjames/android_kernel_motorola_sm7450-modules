@@ -1,0 +1,2 @@
+/home/aju/Android/evox/kernel/motorola/sm7450-modules/motorola/drivers/moto_swap/zram-5.10/zram_drv.o /home/aju/Android/evox/kernel/motorola/sm7450-modules/motorola/drivers/moto_swap/hybridswap/hybridswap_main.o /home/aju/Android/evox/kernel/motorola/sm7450-modules/motorola/drivers/moto_swap/hybridswap/hybridswap_eswap.o /home/aju/Android/evox/kernel/motorola/sm7450-modules/motorola/drivers/moto_swap/hybridswap/hybridswap_swapd.o /home/aju/Android/evox/kernel/motorola/sm7450-modules/motorola/drivers/moto_swap/zram-5.10/zcomp.o
+

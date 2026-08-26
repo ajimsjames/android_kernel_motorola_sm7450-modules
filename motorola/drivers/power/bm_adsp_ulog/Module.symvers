@@ -1,0 +1,5 @@
+0xf482852c	bm_ulog_print_mask_log	/home/aju/Android/evox/kernel/motorola/sm7450-modules/motorola/drivers/power/bm_adsp_ulog/bm_adsp_ulog	EXPORT_SYMBOL	
+0x08c09e20	bm_ulog_enable_log	/home/aju/Android/evox/kernel/motorola/sm7450-modules/motorola/drivers/power/bm_adsp_ulog/bm_adsp_ulog	EXPORT_SYMBOL	
+0xcf2bffb6	bm_ulog_get_mask_log	/home/aju/Android/evox/kernel/motorola/sm7450-modules/motorola/drivers/power/bm_adsp_ulog/bm_adsp_ulog	EXPORT_SYMBOL	
+0x0d057b83	bm_ulog_get_log	/home/aju/Android/evox/kernel/motorola/sm7450-modules/motorola/drivers/power/bm_adsp_ulog/bm_adsp_ulog	EXPORT_SYMBOL	
+0x4e6bc7f4	bm_ulog_print_log	/home/aju/Android/evox/kernel/motorola/sm7450-modules/motorola/drivers/power/bm_adsp_ulog/bm_adsp_ulog	EXPORT_SYMBOL	

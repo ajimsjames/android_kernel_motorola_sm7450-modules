@@ -1,0 +1,2 @@
+/home/aju/Android/evox/kernel/motorola/sm7450-modules/qcom/opensource/audio-kernel/asoc/codecs/wcd938x/wcd938x.o /home/aju/Android/evox/kernel/motorola/sm7450-modules/qcom/opensource/audio-kernel/asoc/codecs/wcd938x/wcd938x-regmap.o /home/aju/Android/evox/kernel/motorola/sm7450-modules/qcom/opensource/audio-kernel/asoc/codecs/wcd938x/wcd938x-tables.o /home/aju/Android/evox/kernel/motorola/sm7450-modules/qcom/opensource/audio-kernel/asoc/codecs/wcd938x/wcd938x-mbhc.o
+

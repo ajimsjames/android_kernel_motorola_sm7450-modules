@@ -1,0 +1,1 @@
+cmd_/home/aju/Android/evox/kernel/motorola/sm7450-modules/motorola/drivers/ese/st54x/st54spi.mod := { echo  /home/aju/Android/evox/kernel/motorola/sm7450-modules/motorola/drivers/ese/st54x/st54spi.o;  echo; } > /home/aju/Android/evox/kernel/motorola/sm7450-modules/motorola/drivers/ese/st54x/st54spi.mod

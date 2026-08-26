@@ -1,0 +1,1 @@
+cmd_/home/aju/Android/evox/kernel/motorola/sm7450-modules/motorola/drivers/usb/typec/adapter_class/adapter_class.mod := { echo  /home/aju/Android/evox/kernel/motorola/sm7450-modules/motorola/drivers/usb/typec/adapter_class/adapter_class.o;  echo; } > /home/aju/Android/evox/kernel/motorola/sm7450-modules/motorola/drivers/usb/typec/adapter_class/adapter_class.mod

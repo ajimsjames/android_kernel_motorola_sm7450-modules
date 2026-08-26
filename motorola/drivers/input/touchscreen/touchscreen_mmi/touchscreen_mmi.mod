@@ -1,0 +1,2 @@
+/home/aju/Android/evox/kernel/motorola/sm7450-modules/motorola/drivers/input/touchscreen/touchscreen_mmi/touchscreen_mmi_class.o /home/aju/Android/evox/kernel/motorola/sm7450-modules/motorola/drivers/input/touchscreen/touchscreen_mmi/touchscreen_mmi_panel.o /home/aju/Android/evox/kernel/motorola/sm7450-modules/motorola/drivers/input/touchscreen/touchscreen_mmi/touchscreen_mmi_notif.o /home/aju/Android/evox/kernel/motorola/sm7450-modules/motorola/drivers/input/touchscreen/touchscreen_mmi/touchscreen_mmi_gesture.o
+

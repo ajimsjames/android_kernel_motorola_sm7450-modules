@@ -1,0 +1,37 @@
+# add -Wall to try to catch everything we can.
+EXTRA_CFLAGS += -Wall
+EXTRA_CFLAGS += -I$(KERNEL_SRC)/../sm7450-modules/motorola/include \
+		-I$(KERNEL_SRC)/../sm7450-modules/motorola/drivers/input/misc/ets_fps_mmi
+
+ifneq ($(filter m y,$(CONFIG_INPUT_EGISTEC_FPS_NAVI_HORIZON)),)
+	EXTRA_CFLAGS += -DCONFIG_INPUT_EGISTEC_FPS_NAVI_HORIZON
+endif
+
+ets_fps_mmi-y += ets_fps.o
+
+ifneq ($(filter m y,$(CONFIG_INPUT_EGISTEC_FPS_NAVI)),)
+	EXTRA_CFLAGS += -DCONFIG_INPUT_EGISTEC_FPS_NAVI
+	ets_fps_mmi-y += ets_navi_input.o
+endif
+ifneq ($(filter m y,$(CONFIG_INPUT_EGISTEC_FPS_NAVI_VERTICAL)),)
+	EXTRA_CFLAGS += -DCONFIG_INPUT_EGISTEC_FPS_NAVI_VERTICAL
+endif
+ifeq ($(TARGET_BUILD_VARIANT),userdebug)
+	EXTRA_CFLAGS += -DFP_SPI_DEBUG
+endif
+
+obj-m += ets_fps_mmi.o
+
+ifneq (,$(or $(findstring sofia,$(TARGET_PRODUCT)),$(findstring sofia,$(TARGET_PRODUCT)),$(findstring rav,$(TARGET_PRODUCT))))
+EXTRA_CFLAGS += -DCONFIG_INPUT_EGISTEC_FPS_POSE=0
+else
+EXTRA_CFLAGS += -DCONFIG_INPUT_EGISTEC_FPS_POSE=270
+endif
+
+ifneq ($(filter m y, $(CONFIG_EGIS_DISPLAY_SPEED_UP)),)
+EXTRA_CFLAGS += -DCONFIG_EGIS_DISPLAY_SPEED_UP
+endif
+
+ifneq ($(filter m y, $(CONFIG_NAV_DOUBLE_TAP)),)
+EXTRA_CFLAGS += -DCONFIG_NAV_DOUBLE_TAP
+endif

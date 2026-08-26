@@ -1,0 +1,1 @@
+cmd_/home/aju/Android/evox/kernel/motorola/sm7450-modules/motorola/drivers/misc/utag/utags.mod := { echo  /home/aju/Android/evox/kernel/motorola/sm7450-modules/motorola/drivers/misc/utag/utags.o;  echo; } > /home/aju/Android/evox/kernel/motorola/sm7450-modules/motorola/drivers/misc/utag/utags.mod

@@ -1,0 +1,2 @@
+/home/aju/Android/evox/kernel/motorola/sm7450-modules/qcom/opensource/audio-kernel/dsp/spf-core.o /home/aju/Android/evox/kernel/motorola/sm7450-modules/qcom/opensource/audio-kernel/dsp/digital-cdc-rsc-mgr.o
+

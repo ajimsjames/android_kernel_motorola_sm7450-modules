@@ -1,0 +1,2 @@
+/home/aju/Android/evox/kernel/motorola/sm7450-modules/qcom/opensource/audio-kernel/asoc/codecs/wcd-clsh.o /home/aju/Android/evox/kernel/motorola/sm7450-modules/qcom/opensource/audio-kernel/asoc/codecs/wcdcal-hwdep.o /home/aju/Android/evox/kernel/motorola/sm7450-modules/qcom/opensource/audio-kernel/asoc/codecs/wcd9xxx-soc-init.o /home/aju/Android/evox/kernel/motorola/sm7450-modules/qcom/opensource/audio-kernel/asoc/codecs/audio-ext-clk-up.o
+

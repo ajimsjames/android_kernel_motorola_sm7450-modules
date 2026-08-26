@@ -1,0 +1,1 @@
+cmd_/home/aju/Android/evox/kernel/motorola/sm7450-modules/motorola/drivers/wlan_elna/modules.order := {   echo /home/aju/Android/evox/kernel/motorola/sm7450-modules/motorola/drivers/wlan_elna/wlan_elna.ko; :; } | awk '!x[$$0]++' - > /home/aju/Android/evox/kernel/motorola/sm7450-modules/motorola/drivers/wlan_elna/modules.order

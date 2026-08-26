@@ -1,0 +1,1 @@
+cmd_/home/aju/Android/evox/kernel/motorola/sm7450-modules/qcom/opensource/audio-kernel/asoc/codecs/swr_dmic_dlkm.mod := { echo  /home/aju/Android/evox/kernel/motorola/sm7450-modules/qcom/opensource/audio-kernel/asoc/codecs/swr-dmic.o;  echo; } > /home/aju/Android/evox/kernel/motorola/sm7450-modules/qcom/opensource/audio-kernel/asoc/codecs/swr_dmic_dlkm.mod

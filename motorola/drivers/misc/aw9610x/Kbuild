@@ -1,0 +1,20 @@
+# add -Wall to try to catch everything we can.
+EXTRA_CFLAGS += -Wall
+EXTRA_CFLAGS += -I$(KERNEL_SRC)/../sm7450-modules/motorola/include
+EXTRA_CFLAGS += -I$(KERNEL_SRC)/drivers/base
+
+ifneq ($(filter m y,$(CONFIG_AW9610X_POWER_SUPPLY_ONLINE)),)
+	EXTRA_CFLAGS += -DCONFIG_USE_POWER_SUPPLY_ONLINE
+endif
+
+ifneq ($(filter m y,$(CONFIG_AW9610X_HARDWARE_VERSION)),)
+	EXTRA_CFLAGS += -DCONFIG_USE_HARDWARE_VERSION
+endif
+
+KBUILD_EXTRA_SYMBOLS += $(CURDIR)/$(KBUILD_EXTMOD)/../../sensors/$(GKI_OBJ_MODULE_DIR)/Module.symvers
+
+obj-m := aw9610x.o
+aw9610x-objs += aw9610x_sar.o
+aw9610x-objs += aw_bin_parse.o
+
+

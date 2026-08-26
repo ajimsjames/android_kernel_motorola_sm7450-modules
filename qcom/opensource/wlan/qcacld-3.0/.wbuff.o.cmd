@@ -1,0 +1,1 @@
+cmd_/home/aju/Android/evox/kernel/motorola/sm7450-modules/qcom/opensource/wlan/qcacld-3.0/wbuff.o := ld.lld -EL  -maarch64elf -z norelro -z noexecstack   -r -o /home/aju/Android/evox/kernel/motorola/sm7450-modules/qcom/opensource/wlan/qcacld-3.0/wbuff.o /home/aju/Android/evox/kernel/motorola/sm7450-modules/qcom/opensource/wlan/qcacld-3.0/cmn/wbuff/src/wbuff.o

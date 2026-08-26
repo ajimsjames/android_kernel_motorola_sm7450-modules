@@ -1,0 +1,1 @@
+cmd_/home/aju/Android/evox/kernel/motorola/sm7450-modules/motorola/drivers/wlan_elna/wlan_elna.mod := { echo  /home/aju/Android/evox/kernel/motorola/sm7450-modules/motorola/drivers/wlan_elna/wlan_elna.o;  echo; } > /home/aju/Android/evox/kernel/motorola/sm7450-modules/motorola/drivers/wlan_elna/wlan_elna.mod

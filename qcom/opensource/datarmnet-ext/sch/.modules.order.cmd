@@ -1,0 +1,1 @@
+cmd_/home/aju/Android/evox/kernel/motorola/sm7450-modules/qcom/opensource/datarmnet-ext/sch/modules.order := {   echo /home/aju/Android/evox/kernel/motorola/sm7450-modules/qcom/opensource/datarmnet-ext/sch/rmnet_sch.ko; :; } | awk '!x[$$0]++' - > /home/aju/Android/evox/kernel/motorola/sm7450-modules/qcom/opensource/datarmnet-ext/sch/modules.order

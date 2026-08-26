@@ -1,0 +1,1 @@
+cmd_/home/aju/Android/evox/kernel/motorola/sm7450-modules/qcom/opensource/wlan/qcacld-3.0/txrx.o := ld.lld -EL  -maarch64elf -z norelro -z noexecstack   -r -o /home/aju/Android/evox/kernel/motorola/sm7450-modules/qcom/opensource/wlan/qcacld-3.0/txrx.o /home/aju/Android/evox/kernel/motorola/sm7450-modules/qcom/opensource/wlan/qcacld-3.0/core/dp/txrx/ol_txrx_event.o

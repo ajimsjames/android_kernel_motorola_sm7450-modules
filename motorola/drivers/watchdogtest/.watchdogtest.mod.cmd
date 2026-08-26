@@ -1,0 +1,1 @@
+cmd_/home/aju/Android/evox/kernel/motorola/sm7450-modules/motorola/drivers/watchdogtest/watchdogtest.mod := { echo  /home/aju/Android/evox/kernel/motorola/sm7450-modules/motorola/drivers/watchdogtest/watchdogtest.o;  echo; } > /home/aju/Android/evox/kernel/motorola/sm7450-modules/motorola/drivers/watchdogtest/watchdogtest.mod

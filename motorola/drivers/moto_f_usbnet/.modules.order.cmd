@@ -1,0 +1,1 @@
+cmd_/home/aju/Android/evox/kernel/motorola/sm7450-modules/motorola/drivers/moto_f_usbnet/modules.order := {   echo /home/aju/Android/evox/kernel/motorola/sm7450-modules/motorola/drivers/moto_f_usbnet/moto_f_usbnet.ko; :; } | awk '!x[$$0]++' - > /home/aju/Android/evox/kernel/motorola/sm7450-modules/motorola/drivers/moto_f_usbnet/modules.order

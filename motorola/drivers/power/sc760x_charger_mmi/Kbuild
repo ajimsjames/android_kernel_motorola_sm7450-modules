@@ -1,0 +1,13 @@
+# add -Wall to try to catch everything we can.
+EXTRA_CFLAGS += -Wall
+EXTRA_CFLAGS += -I$(KERNEL_SRC)/../sm7450-modules/motorola/include \
+		-I$(KERNEL_SRC)/../sm7450-modules/motorola/drivers/power/sc760x_charger_mmi \
+		-I$(KERNEL_SRC)/../sm7450-modules/motorola/drivers/power/mmi_charger
+
+ifneq ($(filter m y,$(CONFIG_THERMAL_RATIO_CONTROL)),)
+	EXTRA_CFLAGS += -DTHERMAL_RATIO_CONTROL
+endif
+
+obj-m += sc760x_charger_mmi.o
+
+KBUILD_EXTRA_SYMBOLS += $(CURDIR)/$(KBUILD_EXTMOD)/../mmi_charger/$(GKI_OBJ_MODULE_DIR)/Module.symvers

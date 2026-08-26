@@ -1,0 +1,1 @@
+cmd_/home/aju/Android/evox/kernel/motorola/sm7450-modules/qcom/opensource/audio-kernel/asoc/codecs/hdmi_dlkm.mod := { echo  /home/aju/Android/evox/kernel/motorola/sm7450-modules/qcom/opensource/audio-kernel/asoc/codecs/msm_hdmi_codec_rx.o;  echo; } > /home/aju/Android/evox/kernel/motorola/sm7450-modules/qcom/opensource/audio-kernel/asoc/codecs/hdmi_dlkm.mod

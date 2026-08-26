@@ -1,0 +1,1 @@
+cmd_/home/aju/Android/evox/kernel/motorola/sm7450-modules/motorola/drivers/mmi_info/modules.order := {   echo /home/aju/Android/evox/kernel/motorola/sm7450-modules/motorola/drivers/mmi_info/mmi_info.ko; :; } | awk '!x[$$0]++' - > /home/aju/Android/evox/kernel/motorola/sm7450-modules/motorola/drivers/mmi_info/modules.order

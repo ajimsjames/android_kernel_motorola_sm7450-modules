@@ -1,0 +1,1 @@
+cmd_/home/aju/Android/evox/kernel/motorola/sm7450-modules/motorola/drivers/moto_netopt/con_dfpar/modules.order := {   echo /home/aju/Android/evox/kernel/motorola/sm7450-modules/motorola/drivers/moto_netopt/con_dfpar/con_dfpar.ko; :; } | awk '!x[$$0]++' - > /home/aju/Android/evox/kernel/motorola/sm7450-modules/motorola/drivers/moto_netopt/con_dfpar/modules.order

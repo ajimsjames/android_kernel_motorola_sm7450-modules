@@ -1,0 +1,1 @@
+cmd_/home/aju/Android/evox/kernel/motorola/sm7450-modules/qcom/opensource/cvp-kernel/modules.order := {   cat /home/aju/Android/evox/kernel/motorola/sm7450-modules/qcom/opensource/cvp-kernel/msm/modules.order; :; } | awk '!x[$$0]++' - > /home/aju/Android/evox/kernel/motorola/sm7450-modules/qcom/opensource/cvp-kernel/modules.order

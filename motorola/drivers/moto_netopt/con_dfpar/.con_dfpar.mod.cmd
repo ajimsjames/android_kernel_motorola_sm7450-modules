@@ -1,0 +1,1 @@
+cmd_/home/aju/Android/evox/kernel/motorola/sm7450-modules/motorola/drivers/moto_netopt/con_dfpar/con_dfpar.mod := { echo  /home/aju/Android/evox/kernel/motorola/sm7450-modules/motorola/drivers/moto_netopt/con_dfpar/con_dfpar.o;  echo; } > /home/aju/Android/evox/kernel/motorola/sm7450-modules/motorola/drivers/moto_netopt/con_dfpar/con_dfpar.mod

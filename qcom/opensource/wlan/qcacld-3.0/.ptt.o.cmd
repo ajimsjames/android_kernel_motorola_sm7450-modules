@@ -1,0 +1,1 @@
+cmd_/home/aju/Android/evox/kernel/motorola/sm7450-modules/qcom/opensource/wlan/qcacld-3.0/ptt.o := ld.lld -EL  -maarch64elf -z norelro -z noexecstack   -r -o /home/aju/Android/evox/kernel/motorola/sm7450-modules/qcom/opensource/wlan/qcacld-3.0/ptt.o /home/aju/Android/evox/kernel/motorola/sm7450-modules/qcom/opensource/wlan/qcacld-3.0/cmn/utils/ptt/src/wlan_ptt_sock_svc.o

@@ -1,0 +1,1 @@
+cmd_/home/aju/Android/evox/kernel/motorola/sm7450-modules/qcom/opensource/datarmnet-ext/sch/rmnet_sch.o := ld.lld -EL  -maarch64elf -z norelro -z noexecstack   -r -o /home/aju/Android/evox/kernel/motorola/sm7450-modules/qcom/opensource/datarmnet-ext/sch/rmnet_sch.o /home/aju/Android/evox/kernel/motorola/sm7450-modules/qcom/opensource/datarmnet-ext/sch/rmnet_sch_main.o

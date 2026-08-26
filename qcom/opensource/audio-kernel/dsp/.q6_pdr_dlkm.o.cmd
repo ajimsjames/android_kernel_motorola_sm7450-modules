@@ -1,0 +1,1 @@
+cmd_/home/aju/Android/evox/kernel/motorola/sm7450-modules/qcom/opensource/audio-kernel/dsp/q6_pdr_dlkm.o := ld.lld -EL  -maarch64elf -z norelro -z noexecstack   -r -o /home/aju/Android/evox/kernel/motorola/sm7450-modules/qcom/opensource/audio-kernel/dsp/q6_pdr_dlkm.o /home/aju/Android/evox/kernel/motorola/sm7450-modules/qcom/opensource/audio-kernel/dsp/audio_pdr.o

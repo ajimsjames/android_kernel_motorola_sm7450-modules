@@ -1,0 +1,2 @@
+0x2fb8cbe6	sensors_classdev_register	/home/aju/Android/evox/kernel/motorola/sm7450-modules/motorola/drivers/sensors/sensors_class	EXPORT_SYMBOL	
+0x63812eed	sensors_classdev_unregister	/home/aju/Android/evox/kernel/motorola/sm7450-modules/motorola/drivers/sensors/sensors_class	EXPORT_SYMBOL	

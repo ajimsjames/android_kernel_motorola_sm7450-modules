@@ -1,0 +1,2 @@
+/home/aju/Android/evox/kernel/motorola/sm7450-modules/motorola/drivers/mmi_info/mmi_storage_info.o /home/aju/Android/evox/kernel/motorola/sm7450-modules/motorola/drivers/mmi_info/mmi_ram_info.o /home/aju/Android/evox/kernel/motorola/sm7450-modules/motorola/drivers/mmi_info/mmi_unit_info.o /home/aju/Android/evox/kernel/motorola/sm7450-modules/motorola/drivers/mmi_info/mmi_boot_info.o /home/aju/Android/evox/kernel/motorola/sm7450-modules/motorola/drivers/mmi_info/mmi_info_main.o
+

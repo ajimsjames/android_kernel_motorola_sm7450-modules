@@ -1,0 +1,1 @@
+cmd_/home/aju/Android/evox/kernel/motorola/sm7450-modules/motorola/drivers/power/bm_adsp_ulog/bm_adsp_ulog.mod := { echo  /home/aju/Android/evox/kernel/motorola/sm7450-modules/motorola/drivers/power/bm_adsp_ulog/bm_adsp_ulog.o;  echo; } > /home/aju/Android/evox/kernel/motorola/sm7450-modules/motorola/drivers/power/bm_adsp_ulog/bm_adsp_ulog.mod

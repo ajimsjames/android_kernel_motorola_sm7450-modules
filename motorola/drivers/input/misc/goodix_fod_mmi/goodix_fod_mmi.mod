@@ -1,0 +1,2 @@
+/home/aju/Android/evox/kernel/motorola/sm7450-modules/motorola/drivers/input/misc/goodix_fod_mmi/gf_spi.o /home/aju/Android/evox/kernel/motorola/sm7450-modules/motorola/drivers/input/misc/goodix_fod_mmi/netlink.o /home/aju/Android/evox/kernel/motorola/sm7450-modules/motorola/drivers/input/misc/goodix_fod_mmi/platform.o
+

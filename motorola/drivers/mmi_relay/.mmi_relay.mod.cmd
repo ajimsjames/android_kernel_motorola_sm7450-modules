@@ -1,0 +1,1 @@
+cmd_/home/aju/Android/evox/kernel/motorola/sm7450-modules/motorola/drivers/mmi_relay/mmi_relay.mod := { echo  /home/aju/Android/evox/kernel/motorola/sm7450-modules/motorola/drivers/mmi_relay/mmi_relay.o;  echo; } > /home/aju/Android/evox/kernel/motorola/sm7450-modules/motorola/drivers/mmi_relay/mmi_relay.mod

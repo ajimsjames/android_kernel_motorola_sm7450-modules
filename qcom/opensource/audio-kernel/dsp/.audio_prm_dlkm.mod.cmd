@@ -1,0 +1,1 @@
+cmd_/home/aju/Android/evox/kernel/motorola/sm7450-modules/qcom/opensource/audio-kernel/dsp/audio_prm_dlkm.mod := { echo  /home/aju/Android/evox/kernel/motorola/sm7450-modules/qcom/opensource/audio-kernel/dsp/audio_prm.o;  echo; } > /home/aju/Android/evox/kernel/motorola/sm7450-modules/qcom/opensource/audio-kernel/dsp/audio_prm_dlkm.mod

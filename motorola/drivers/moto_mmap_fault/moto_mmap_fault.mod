@@ -1,0 +1,2 @@
+/home/aju/Android/evox/kernel/motorola/sm7450-modules/motorola/drivers/moto_mmap_fault/moto_mmap_fault.o
+

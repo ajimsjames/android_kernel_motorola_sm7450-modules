@@ -1,0 +1,6 @@
+0xbbd8dc5d	mmrm_client_register	/home/aju/Android/evox/kernel/motorola/sm7450-modules/qcom/opensource/mmrm-driver/driver/msm-mmrm	EXPORT_SYMBOL	
+0xde9150a8	mmrm_client_check_scaling_supported	/home/aju/Android/evox/kernel/motorola/sm7450-modules/qcom/opensource/mmrm-driver/driver/msm-mmrm	EXPORT_SYMBOL	
+0xf77f51e3	mmrm_client_set_value_in_range	/home/aju/Android/evox/kernel/motorola/sm7450-modules/qcom/opensource/mmrm-driver/driver/msm-mmrm	EXPORT_SYMBOL	
+0x15e4a2d8	mmrm_client_deregister	/home/aju/Android/evox/kernel/motorola/sm7450-modules/qcom/opensource/mmrm-driver/driver/msm-mmrm	EXPORT_SYMBOL	
+0xb6f77941	mmrm_client_get_value	/home/aju/Android/evox/kernel/motorola/sm7450-modules/qcom/opensource/mmrm-driver/driver/msm-mmrm	EXPORT_SYMBOL	
+0x6be8a03a	mmrm_client_set_value	/home/aju/Android/evox/kernel/motorola/sm7450-modules/qcom/opensource/mmrm-driver/driver/msm-mmrm	EXPORT_SYMBOL	

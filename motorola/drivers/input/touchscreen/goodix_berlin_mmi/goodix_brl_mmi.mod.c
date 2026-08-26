@@ -1,0 +1,192 @@
+#include <linux/module.h>
+#define INCLUDE_VERMAGIC
+#include <linux/build-salt.h>
+#include <linux/vermagic.h>
+#include <linux/compiler.h>
+
+BUILD_SALT;
+
+MODULE_INFO(vermagic, VERMAGIC_STRING);
+MODULE_INFO(name, KBUILD_MODNAME);
+
+__visible struct module __this_module
+__section(".gnu.linkonce.this_module") = {
+	.name = KBUILD_MODNAME,
+	.init = init_module,
+#ifdef CONFIG_MODULE_UNLOAD
+	.exit = cleanup_module,
+#endif
+	.arch = MODULE_ARCH_INIT,
+};
+
+#ifdef CONFIG_RETPOLINE
+MODULE_INFO(retpoline, "Y");
+#endif
+
+static const struct modversion_info ____versions[]
+__used __section("__versions") = {
+	{ 0xe3c515c, "module_layout" },
+	{ 0x1e1e140e, "ns_to_timespec64" },
+	{ 0xb6e6d99d, "clk_disable" },
+	{ 0xb077e70a, "clk_unprepare" },
+	{ 0x815588a6, "clk_enable" },
+	{ 0x7c9a7371, "clk_prepare" },
+	{ 0x3c80c06c, "kstrtoull" },
+	{ 0xc5f040e5, "_dev_info" },
+	{ 0xe28c9bd7, "gpiod_get_raw_value" },
+	{ 0x349cba85, "strchr" },
+	{ 0x8ab5847f, "ts_mmi_dev_unregister" },
+	{ 0x3eb52ba5, "_dev_err" },
+	{ 0x407630b3, "ts_mmi_dev_register" },
+	{ 0x37befc70, "jiffies_to_msecs" },
+	{ 0x15ba50a6, "jiffies" },
+	{ 0x8ddd8aad, "schedule_timeout" },
+	{ 0x92540fbf, "finish_wait" },
+	{ 0x8c26d495, "prepare_to_wait_event" },
+	{ 0xfe487975, "init_wait_entry" },
+	{ 0x43023eaa, "pm_wakeup_ws_event" },
+	{ 0xce2840e7, "irq_set_irq_wake" },
+	{ 0xef1d7977, "kobject_init_and_add" },
+	{ 0x3c3ff9fd, "sprintf" },
+	{ 0xdd4d55b6, "_raw_read_unlock" },
+	{ 0xfe8c61f0, "_raw_read_lock" },
+	{ 0xe0875eb1, "kstrtobool" },
+	{ 0x96848186, "scnprintf" },
+	{ 0x6b2941b2, "__arch_copy_to_user" },
+	{ 0x8b9f70c7, "cpu_hwcaps" },
+	{ 0xaf507de1, "__arch_copy_from_user" },
+	{ 0x4b0a3f52, "gic_nonsecure_priorities" },
+	{ 0x88db9f48, "__check_object_size" },
+	{ 0x136605b8, "misc_deregister" },
+	{ 0x54ee7f51, "misc_register" },
+	{ 0x2e2b40d2, "strncat" },
+	{ 0xa916b694, "strnlen" },
+	{ 0xd6ee688f, "vmalloc" },
+	{ 0x758e5272, "sysfs_remove_bin_file" },
+	{ 0x91b9ec8d, "kobject_put" },
+	{ 0x5ccb937a, "sysfs_remove_file_ns" },
+	{ 0x76e3638b, "sysfs_create_bin_file" },
+	{ 0xf3de4f4f, "sysfs_create_file_ns" },
+	{ 0x177f5d51, "kobject_create_and_add" },
+	{ 0x5792f848, "strlcpy" },
+	{ 0xb43f9365, "ktime_get" },
+	{ 0x1e6d26a8, "strstr" },
+	{ 0x263c3152, "bcmp" },
+	{ 0x3ce4ca6f, "disable_irq" },
+	{ 0xfcec0987, "enable_irq" },
+	{ 0xec2fc692, "cpu_hwcap_keys" },
+	{ 0x14b89635, "arm64_const_caps_ready" },
+	{ 0x39f96177, "regulator_enable" },
+	{ 0x297579ba, "regulator_disable" },
+	{ 0x647bdd91, "gpiod_direction_output_raw" },
+	{ 0xef42eddb, "single_release" },
+	{ 0xad9f2705, "seq_lseek" },
+	{ 0xb9997d36, "seq_read" },
+	{ 0x3eeb2322, "__wake_up" },
+	{ 0xd1ce2398, "wake_up_process" },
+	{ 0x4ec0b590, "kthread_create_on_node" },
+	{ 0x36d574de, "devm_clk_get" },
+	{ 0xb602cbbc, "of_get_property" },
+	{ 0xe2d5255a, "strcmp" },
+	{ 0x742471cf, "devm_pinctrl_put" },
+	{ 0xba19ea71, "pinctrl_lookup_state" },
+	{ 0x30822a11, "devm_pinctrl_get" },
+	{ 0x58a28ea3, "regulator_set_voltage" },
+	{ 0xea3df7d6, "regulator_set_load" },
+	{ 0x8d018bba, "devm_regulator_get" },
+	{ 0xff2e1077, "devm_gpio_request_one" },
+	{ 0x9c3d2b68, "of_find_property" },
+	{ 0x9166fada, "strncpy" },
+	{ 0x98cf60b3, "strlen" },
+	{ 0x9cf0dacc, "of_property_read_string" },
+	{ 0xfec2174f, "of_property_read_variable_u32_array" },
+	{ 0x1b71bec9, "of_get_named_gpio_flags" },
+	{ 0x48e68de3, "remove_proc_entry" },
+	{ 0x2115221d, "sysfs_remove_group" },
+	{ 0x3aaa15b2, "cpu_latency_qos_remove_request" },
+	{ 0x184ef9a5, "wakeup_source_unregister" },
+	{ 0xd9a5ea54, "__init_waitqueue_head" },
+	{ 0x9cf357cc, "wakeup_source_register" },
+	{ 0x589e1a22, "cpu_latency_qos_add_request" },
+	{ 0x6c1be3f0, "pinctrl_select_state" },
+	{ 0xb9a35017, "devm_kmalloc" },
+	{ 0xd740362b, "seq_printf" },
+	{ 0xb8b9f817, "kmalloc_order_trace" },
+	{ 0x6503cb62, "single_open_size" },
+	{ 0xbeb6a067, "PDE_DATA" },
+	{ 0x45355328, "irq_to_desc" },
+	{ 0x779a18af, "kstrtoll" },
+	{ 0x85df9b6c, "strsep" },
+	{ 0xc6d09aa9, "release_firmware" },
+	{ 0xa45b3c60, "request_firmware" },
+	{ 0xbcab6ee6, "sscanf" },
+	{ 0x656e4a6e, "snprintf" },
+	{ 0xc4f0da12, "ktime_get_with_offset" },
+	{ 0xdc528096, "cpu_latency_qos_update_request" },
+	{ 0x4c0b8512, "platform_driver_unregister" },
+	{ 0xedf3b609, "__platform_driver_register" },
+	{ 0xf9eee56b, "devm_request_threaded_irq" },
+	{ 0xd1e32e72, "gpiod_to_irq" },
+	{ 0x16ec718d, "gpio_to_desc" },
+	{ 0xd6256d2a, "proc_create_data" },
+	{ 0x877a4a12, "proc_mkdir" },
+	{ 0x7a268829, "sysfs_create_group" },
+	{ 0xb9ab1a56, "input_register_device" },
+	{ 0x50d27be, "input_set_capability" },
+	{ 0x8bdf6c84, "input_mt_init_slots" },
+	{ 0x91b214bd, "input_set_abs_params" },
+	{ 0x98fedf9b, "input_allocate_device" },
+	{ 0xdcb764ad, "memset" },
+	{ 0xb2ef0fff, "input_mt_sync_frame" },
+	{ 0x3fcaa46c, "input_mt_report_slot_state" },
+	{ 0xcb3e900b, "input_event" },
+	{ 0xf8beca97, "cancel_delayed_work_sync" },
+	{ 0xbf57e89e, "queue_delayed_work_on" },
+	{ 0x79cf5987, "init_timer_key" },
+	{ 0x253af43d, "delayed_work_timer_fn" },
+	{ 0x4117f5c7, "input_free_device" },
+	{ 0x6d0a4690, "input_unregister_device" },
+	{ 0x8317ad7c, "blocking_notifier_call_chain" },
+	{ 0x963aa2a9, "blocking_notifier_chain_unregister" },
+	{ 0xbb0c86a5, "blocking_notifier_chain_register" },
+	{ 0xe1537255, "__list_del_entry_valid" },
+	{ 0xe8b268ae, "mutex_unlock" },
+	{ 0xeb9065d9, "mutex_lock" },
+	{ 0x732ac580, "queue_work_on" },
+	{ 0x2d3385d3, "system_wq" },
+	{ 0x574add77, "__mutex_init" },
+	{ 0x6ff9cf64, "spi_sync" },
+	{ 0x68f31cbd, "__list_add_valid" },
+	{ 0x5f497f4a, "spi_setup" },
+	{ 0xb9f45b68, "driver_unregister" },
+	{ 0xc171c3e1, "__spi_register_driver" },
+	{ 0xf9a482f9, "msleep" },
+	{ 0x98a9d10c, "__stack_chk_fail" },
+	{ 0xeb233a45, "__kmalloc" },
+	{ 0x12a38747, "usleep_range" },
+	{ 0x438d5114, "i2c_transfer" },
+	{ 0x4829a47e, "memcpy" },
+	{ 0x6196375e, "platform_device_unregister" },
+	{ 0x37a0cba, "kfree" },
+	{ 0x594e8361, "platform_device_register" },
+	{ 0xbaa6702f, "kmem_cache_alloc_trace" },
+	{ 0xce7f4b8f, "kmalloc_caches" },
+	{ 0x618c2bab, "mmi_device_is_available" },
+	{ 0x50e14333, "i2c_del_driver" },
+	{ 0x86f29092, "i2c_register_driver" },
+	{ 0xf0874c09, "mmi_check_dynamic_device_node" },
+	{ 0xc5850110, "printk" },
+};
+
+MODULE_INFO(depends, "touchscreen_mmi,mmi_info");
+
+MODULE_ALIAS("of:N*T*Cgoodix,gt9897");
+MODULE_ALIAS("of:N*T*Cgoodix,gt9897C*");
+MODULE_ALIAS("of:N*T*Cgoodix,gt9966");
+MODULE_ALIAS("of:N*T*Cgoodix,gt9966C*");
+MODULE_ALIAS("of:N*T*Cgoodix,gt9916");
+MODULE_ALIAS("of:N*T*Cgoodix,gt9916C*");
+MODULE_ALIAS("i2c:goodix_ts");
+MODULE_ALIAS("platform:goodix_ts");
+
+MODULE_INFO(scmversion, "g2806f02f43ff");

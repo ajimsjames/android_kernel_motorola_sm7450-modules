@@ -1,0 +1,13 @@
+# add -Wall to try to catch everything we can.
+EXTRA_CFLAGS += -Wall
+EXTRA_CFLAGS += -I$(KERNEL_SRC)/../sm7450-modules/motorola/include
+
+ifneq ($(filter m y,$(CONFIG_HALL_PASSIVE_PEN)),)
+	EXTRA_CFLAGS += -DCONFIG_HALL_PASSIVE_PEN
+endif
+
+
+KBUILD_EXTRA_SYMBOLS += $(CURDIR)/$(KBUILD_EXTMOD)/../../sensors/$(GKI_OBJ_MODULE_DIR)/Module.symvers
+
+obj-m += hall_pen.o
+obj-m += hall_folio.o

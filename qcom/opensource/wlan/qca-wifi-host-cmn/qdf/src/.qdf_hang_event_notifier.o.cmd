@@ -1,0 +1,486 @@
+cmd_/home/aju/Android/evox/kernel/motorola/sm7450-modules/qcom/opensource/wlan/qcacld-3.0/cmn/qdf/src/qdf_hang_event_notifier.o := scripts/basic/cc-wrapper clang -Wp,-MMD,/home/aju/Android/evox/kernel/motorola/sm7450-modules/qcom/opensource/wlan/qcacld-3.0/cmn/qdf/src/.qdf_hang_event_notifier.o.d -nostdinc -isystem /home/aju/Android/evox/prebuilts/clang/host/linux-x86/clang-r574158/lib/clang/21/include -I../arch/arm64/include -I./arch/arm64/include/generated -I../include -I./include -I../arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I../include/uapi -I./include/generated/uapi -include ../include/linux/kconfig.h -include ../include/linux/compiler_types.h -D__KERNEL__ --target=aarch64-linux-gnu -fintegrated-as -Werror=unknown-warning-option -mlittle-endian -DKASAN_SHADOW_SCALE_SHIFT= -Qunused-arguments -fmacro-prefix-map=../= -include /home/aju/Android/evox/kernel/motorola/sm7450-modules/qcom/opensource/wlan/qcacld-3.0/configs/default_config.h -DCONFIG_LITHIUM -DWLAN_HANG_EVENT -Wall -Werror -DTHERMAL_STATS_SUPPORT -DPTT_SOCK_SVC_ENABLE -DFEATURE_WLAN_WAPI -DATH_SUPPORT_WAPI -DSOFTAP_CHANNEL_RANGE -DFEATURE_WLAN_SCAN_PNO -DWLAN_FEATURE_PACKET_FILTERING -DWLAN_NS_OFFLOAD -DWLAN_FEATURE_ICMP_OFFLOAD -DFEATURE_WLAN_RA_FILTERING -DFEATURE_WLAN_LPHB -DQCA_SUPPORT_TX_THROTTLE -DWMI_INTERFACE_EVENT_LOGGING -DWLAN_FEATURE_LINK_LAYER_STATS -DFEATURE_CLUB_LL_STATS_AND_GET_STATION -DWLAN_FEATURE_MIB_STATS -DCONFIG_160MHZ_SUPPORT -DCONFIG_MCL -DCONFIG_REG_CLIENT -DWLAN_PMO_ENABLE -DCONVERGED_P2P_ENABLE -DWLAN_POLICY_MGR_ENABLE -DFEATURE_BLACKLIST_MGR -DFEATURE_WAPI_BIG_ENDIAN -DSUPPORT_11AX -DCONFIG_HDD_INIT_WITH_RTNL_LOCK -DWLAN_CONV_SPECTRAL_ENABLE -DWLAN_CFR_ENABLE -DWLAN_ENH_CFR_ENABLE -DWLAN_CFR_PM -DCFR_USE_FIXED_FOLDER -DWLAN_FEATURE_MEDIUM_ASSESS -DFEATURE_RADAR_HISTORY -DDIRECT_BUF_RX_ENABLE -DWMI_DBR_SUPPORT -DWMI_CMD_STRINGS -DWLAN_SUPPORT_TWT -DWLAN_DISABLE_EXPORT_SYMBOL -DWIFI_POS_CONVERGED -DWLAN_TWT_CONV_SUPPORTED -DFEATURE_HTC_CREDIT_HISTORY -DWLAN_FEATURE_P2P_DEBUG -DWLAN_WEXT_SUPPORT_ENABLE -DWLAN_LOGGING_SOCK_SVC_ENABLE -DWLAN_FEATURE_FILS_SK -DWLAN_SUPPORT_INFRA_CTRL_PATH_STATS -DQCA_SUPPORT_CP_STATS -DQCA_SUPPORT_MC_CP_STATS -DWLAN_SUPPORT_LEGACY_CP_STATS_HANDLERS -DWLAN_FEATURE_INTEROP_ISSUES_AP -DWLAN_FEATURE_MEMDUMP_ENABLE -DFEATURE_FW_LOG_PARSING -DFEATURE_OEM_DATA -DWLAN_FW_OFFLOAD -DWLAN_FEATURE_ELNA -DHOST_WAKEUP_OVER_QMI -DCONFIG_PLD_IPCI_ICNSS -DWLAN_FEATURE_GPIO_CFG -DFEATURE_WLAN_DP_RX_THREADS -DWLAN_FEATURE_RX_SOFTIRQ_TIME_LIMIT -DFEATURE_HAL_DELAYED_REG_WRITE -DWLAN_FEATURE_LRO_CTX_IN_CB -DFEATURE_MONITOR_MODE_SUPPORT -DWLAN_NL80211_TESTMODE -DFEATURE_RUNTIME_PM -DCONNECTIVITY_PKTLOG -DFEATURE_NAPI -DHIF_IRQ_AFFINITY -DMSM_PLATFORM -DWLAN_FEATURE_DP_BUS_BANDWIDTH -DQCA_LL_TX_FLOW_CONTROL_V2 -DQCA_LL_TX_FLOW_GLOBAL_MGMT_POOL -DWLAN_DEBUG -DTRACE_RECORD -DLIM_TRACE_RECORD -DSME_TRACE_RECORD -DHDD_TRACE_RECORD -DCONFIG_WLAN_SYSFS_FW_MODE_CFG -DCONFIG_WLAN_REASSOC -DCONFIG_WLAN_SCAN_DISABLE -DCONFIG_WLAN_WOW_ITO -DCONFIG_WLAN_WOWL_ADD_PTRN -DCONFIG_WLAN_WOWL_DEL_PTRN -DCONFIG_WLAN_SYSFS_TX_STBC -DCONFIG_WLAN_SYSFS_WLAN_DBG -DCONFIG_WLAN_TXRX_FW_ST_RST -DCONFIG_WLAN_GTX_BW_MASK -DCONFIG_WLAN_SYSFS_SCAN_CFG -DCONFIG_WLAN_SYSFS_MONITOR_MODE_CHANNEL -DCONFIG_WLAN_SYSFS_RADAR -DWLAN_SYSFS_RTS_CTS -DCONFIG_WLAN_TXRX_FW_STATS -DCONFIG_WLAN_TXRX_STATS -DWLAN_SYSFS_DP_TRACE -DWLAN_SYSFS_STATS -DCONFIG_WLAN_SYSFS_TEMPERATURE -DCONFIG_WLAN_THERMAL_CFG -DCONFIG_WLAN_SYSFS_MEM_STATS -DWLAN_SYSFS_DCM -DWLAN_SYSFS_HE_BSS_COLOR -DWLAN_SYSFS_STA_INFO -DCONFIG_WLAN_DL_MODES -DFEATURE_WPSS_THERMAL_MITIGATION -DCONFIG_WLAN_DUMP_IN_PROGRESS -DCONFIG_WLAN_BMISS -DCONFIG_WLAN_FREQ_LIST -DWIFI_MONITOR_SUPPORT -DQCA_MONITOR_PKT_SUPPORT -DCONFIG_DP_PKT_ADD_TIMESTAMP -DKERNEL_SUPPORT_11R_CFG80211 -DUSE_80211_WMMTSPEC_FOR_RIC -DFEATURE_WLAN_ESE -DFEATURE_WLAN_TDLS -DTDLS_WOW_ENABLED -DWLAN_SYSFS_TDLS_PEERS -DWLAN_FEATURE_ROAM_OFFLOAD -DWLAN_FEATURE_CONNECTIVITY_LOGGING -DWLAN_FEATURE_MBSSID -DWLAN_FEATURE_P2P_P2P_STA -DCNSS_GENL -DCNSS_UTILS -DCNSS_MEM_PRE_ALLOC -DFEATURE_ROAM_DEBUG -DWLAN_MWS_INFO_DEBUGFS -DWLAN_DEBUG_LINK_VOTE -DWLAN_FEATURE_SAE -DFEATURE_WLAN_DIAG_SUPPORT -DFEATURE_WLAN_DIAG_SUPPORT_CSR -DFEATURE_WLAN_DIAG_SUPPORT_LIM -DCONFIG_ATH_PROCFS_DIAG_SUPPORT -DFEATURE_WLAN_CH_AVOID -DWLAN_FEATURE_LPSS -DDEBUG_RX_RING_BUFFER -DPANIC_ON_BUG -DWLAN_WARN_ON_ASSERT -DWLAN_LOG_FATAL -DWLAN_LOG_ERROR -DWLAN_LOG_WARN -DWLAN_LOG_INFO -DWLAN_LOG_DEBUG -DWLAN_LOG_ENTER -DWLAN_LOG_EXIT -DWLAN_OPEN_SOURCE -DWLAN_FEATURE_STATS_EXT -DWLAN_FEATURE_NAN -DWLAN_SYSFS -DWLAN_SYSFS_CHANNEL -DWLAN_FEATURE_BEACON_RECEPTION_STATS -DWLAN_SYSFS_CONNECT_INFO -DATH_PERF_PWR_OFFLOAD -DATH_11AC_TXCOMPACT -DHIF_IPCI -DCONFIG_LL_DP_SUPPORT -DWLAN_FULL_REORDER_OFFLOAD -DWLAN_FEATURE_BIG_DATA_STATS -DWLAN_FEATURE_IGMP_OFFLOAD -DWLAN_FEATURE_GET_USABLE_CHAN_LIST -DATH_BUS_PM -DWDI_EVENT_ENABLE -DPKTLOG_HAS_SPECIFIC_DATA -DANI_LITTLE_BYTE_ENDIAN -DANI_LITTLE_BIT_ENDIAN -DDOT11F_LITTLE_ENDIAN_HOST -DQCA_WIFI_FTM -DQCA_WIFI_FTM_NL80211 -DLINUX_QCMBR -DQCA_WIFI_FTM_IOCTL -DCHECKSUM_OFFLOAD -DIPA_WDI3_GSI -DWLAN_FEATURE_WMI_DIAG_OVER_CE7 -DWLAN_DP_FEATURE_DEFERRED_REO_QDESC_DESTROY -DWLAN_OPEN_P2P_INTERFACE -DWLAN_WMI_BCN -DWLAN_FEATURE_WBUFF -DWLAN_FEATURE_GTK_OFFLOAD -DQCA_CONFIG_SMP -DQCA_CONFIG_RPS -DWLAN_ENABLE_SOCIAL_CHANNELS_5G_ONLY -DWLAN_SUPPORT_GREEN_AP -DFEATURE_WLAN_APF -DTARGET_RAMDUMP_AFTER_KERNEL_PANIC -DLINUX_QCMBR -DWLAN_FEATURE_TSF -DWLAN_FEATURE_TSF_UPLINK_DELAY -DRECEIVE_OFFLOAD -DATH_TX_PRI_OVERRIDE -DAR900B -DHTT_PADDR64 -DFEATURE_ALLOW_PKT_DROPPING -DFEATURE_TSO -DFEATURE_TSO_STATS -DFORCE_WAKE -DWLAN_FEATURE_EPPING -DWLAN_FEATURE_OFFLOAD_PACKETS -DWLAN_FEATURE_DISA -DWLAN_FEATURE_ACTION_OUI -DWLAN_FEATURE_FIPS -DFEATURE_LFR_SUBNET_DETECTION -DFEATURE_WLAN_MCC_TO_SCC_SWITCH -DCONFIG_SHADOW_V2 -DQCA6750_HEADERS_DEF -DQCA_WIFI_QCA6750 -DQCA_WIFI_QCA8074 -DSCALE_INCLUDES -DQCA_WIFI_QCA8074_VP -DDP_INTR_POLL_BASED -DTX_PER_PDEV_DESC_POOL -DCONFIG_DP_TRACE -DFEATURE_TSO -DTSO_DEBUG_LOG_ENABLE -DDP_LFR -DDUP_RX_DESC_WAR -DDP_MEM_PRE_ALLOC -DDP_TXRX_SOC_ATTACH -DHTT_PADDR64 -DRX_DESC_SANITY_WAR -DWLAN_FEATURE_DYNAMIC_RX_AGGREGATION -DRX_HASH_DEBUG -DQCA_AC_BASED_FLOW_CONTROL -DFEATURE_NO_DBS_INTRABAND_MCC_SUPPORT -DHAL_DISABLE_NON_BA_2K_JUMP_ERROR -BLE_HAL_SOC_STATS -DCONFIG_ENABLE_HAL_REG_WR_HISTORY -DDP_RX_DESC_COOKIE_INVALIDATE -DMON_ENABLE_DROP_FOR_MAC -DDISABLE_MON_RING_MSI_CFG -DFEATURE_IRQ_AFFINITY -DTX_MULTIQ_PER_AC -DPCI_LINK_STATUS_SANITY -DDP_MON_RSSI_IN_DBM -DSYSTEM_PM_CHECK -DDISABLE_EAPOL_INTRABSS_FWD -DTX_MULTI_TCL -DCLD_PM_QOS -DCLD_DEV_PM_QOS -DREO_DESC_DEFER_FREE -DWLAN_FEATURE_11AX -DWLAN_FEATURE_11AX_BSS_COLOR -DSUPPORT_11AX_D3 -DRXDMA_ERR_PKT_DROP -DMAX_ALLOC_PAGE_SIZE -DDELIVERY_TO_STACK_STATUS_CHECK -DFIX_TXDMA_LIMITATION -DFEATURE_AST -DPEER_PROTECTED_ACCESS -DSERIALIZE_QUEUE_SETUP -DDP_RX_PKT_NO_PEER_DELIVER -DDP_RX_DROP_RAW_FRM -DFEATURE_ALIGN_STATS_FROM_DP -DDP_RX_SPECIAL_FRAME_NEED -DFEATURE_STATS_EXT_V2 -DWLAN_FEATURE_CAL_FAILURE_TRIGGER -DWLAN_FEATURE_DYNAMIC_MAC_ADDR_UPDATE -DENABLE_VERBOSE_DEBUG -DRX_DESC_DEBUG_CHECK -DFEATURE_VDEV_OPS_WAKELOCK -DFEATURE_RSSI_MONITOR -DFEATURE_BSS_TRANSITION -DFEATURE_STATION_INFO -DFEATURE_TX_POWER -DFEATURE_OTA_TEST -DFEATURE_ACTIVE_TOS -DFEATURE_SAR_LIMITS -DFEATURE_CONCURRENCY_MATRIX -DFEATURE_SAP_COND_CHAN_SWITCH -DFEATURE_WLAN_CH_AVOID_EXT -DWLAN_FEATURE_MDNS_OFFLOAD -DFEATURE_P2P_LISTEN_OFFLOAD -DFEATURE_ANI_LEVEL_REQUEST -DWMI_ROAM_SUPPORT -DWMI_CONCURRENCY_SUPPORT -DWMI_STA_SUPPORT -DHIF_CE_LOG_INFO -DHIF_BUS_LOG_INFO -DDP_SUPPORT_RECOVERY_NOTIFY -DWLAN_DFS_STATIC_MEM_ALLOC -DMOBILE_DFS_SUPPORT -DWLAN_DFS_FULL_OFFLOAD -DDFS_COMPONENT_ENABLE -DQCA_DFS_USE_POLICY_MANAGER -DQCA_DFS_NOL_PLATFORM_DRV_SUPPORT -DWLAN_DEBUGFS -DENABLE_MTRACE_LOG -DWLAN_ADAPTIVE_11R -DWLAN_SAE_SINGLE_PMK -DMULTI_CLIENT_LL_SUPPORT -DWLAN_FEATURE_MSCS -DWLAN_NUD_TRACKING -DDISABLE_CHANNEL_LIST -DWLAN_BCN_RECV_FEATURE -DFW_THERMAL_THROTTLE -DLTE_COEX -DHOST_OPCLASS -DHOST_OPCLASS_EXT -DTARGET_11D_SCAN -DSAP_AVOID_ACS_FREQ_LIST -DFEATURE_WLAN_DYNAMIC_CVM -DFEATURE_FW_STATE -DRX_DESC_MULTI_PAGE_ALLOC -DSAR_SAFETY_FEATURE -DWLAN_FEATURE_DP_EVENT_HISTORY -DWLAN_DP_PER_RING_TYPE_CONFIG -DWLAN_CE_INTERRUPT_THRESHOLD_CONFIG -DSAP_DHCP_FW_IND -DWLAN_DP_PENDING_MEM_FLUSH -DWLAN_SUPPORT_DATA_STALL -DWLAN_DP_FEATURE_MARK_ICMP_REQ_TO_FW -DWLAN_SKIP_BAR_UPDATE -DWLAN_TRACEPOINTS -DHANDLE_RX_REROUTE_ERR -DCONFIG_BAND_6GHZ -DFEATURE_6G_SCAN_CHAN_SORT_ALGO -DWLAN_SUPPORT_RX_FISA -DWLAN_DP_FEATURE_SW_LATENCY_MGR -DRX_DEFRAG_DO_NOT_REINJECT -DHANDLE_BROADCAST_EAPOL_TX_FRAME -DTX_TO_NPEERS_INC_TX_DESCS -DHIF_CONFIG_SLUB_DEBUG_ON -DWLAN_CUSTOM_DSCP_UP_MAP -DIPA_SET_RESET_TX_DB_PA -DWLAN_FEATURE_RX_PREALLOC_BUFFER_POOL -DDP_TX_TRACKING -DHW_TX_DELAY_STATS_ENABLE -DWLAN_FEATURE_COAP -Wall -Wundef -Werror=strict-prototypes -Wno-trigraphs -fno-strict-aliasing -fno-common -fshort-wchar -fno-PIE -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Wno-format-security -std=gnu89 -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret+leaf+bti -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -ffixed-x18 -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -Wno-frame-address -Wno-format-truncation -Wno-format-overflow -Wno-address-of-packed-member -O2 -Wframe-larger-than=2048 -fstack-protector-strong -Wno-format-invalid-specifier -Wno-gnu -mno-global-merge -Wno-default-const-init-unsafe -Wno-unused-but-set-variable -Wno-unused-const-variable -fno-omit-frame-pointer -fno-optimize-sibling-calls -ftrivial-auto-var-init=zero -fsanitize=shadow-call-stack -Wdeclaration-after-statement -Wvla -Wno-pointer-sign -Wno-array-bounds -fno-strict-overflow -fno-stack-check -Werror=date-time -Werror=incompatible-pointer-types -fno-builtin-wcslen -Wno-initializer-overrides -Wno-format -Wno-sign-compare -Wno-format-zero-length -Wno-pointer-to-enum-cast -Wno-tautological-constant-out-of-range-compare -Wno-unaligned-access -Wno-cast-function-type-strict -Wno-enum-compare-conditional -Wno-error -Wno-error=strict-prototypes -Wno-strict-prototypes -I/home/aju/Android/evox/kernel/motorola/sm7450-modules/motorola/include -DPOWER_SUPPLY_TYPE_USB_HVDCP_3=21 -DPOWER_SUPPLY_TYPE_USB_HVDCP_3P5=22 -DPOWER_SUPPLY_TYPE_USB_FLOAT=23 -DPOWER_SUPPLY_TYPE_USB_HVDCP=20 -DPSY_IIO_MMI_OTG_ENABLE=116 -DPSY_IIO_USB_CHARGING_ENABLED=117 -DPSY_IIO_INPUT_CURRENT_SETTLED=118 -DPSY_IIO_USB_TERMINATION_ENABLED=119 -DPSY_IIO_MMI_QC3P_POWER=120 -DPSY_IIO_MMI_PD_VDM_VERIFY=121 -DPSY_IIO_MMI_CP_INPUT_CURRENT_NOW=122 -DPSY_IIO_MMI_CP_INPUT_VOLTAGE_NOW=123 -DPSY_IIO_CP_CLEAR_ERROR=124 -DPSY_IIO_MMI_CP_CHIP_ID=125 -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1488 -I/home/aju/Android/evox/kernel/motorola/sm7450-modules/qcom/opensource/wlan/qcacld-3.0/core/hdd/inc -I/home/aju/Android/evox/kernel/motorola/sm7450-modules/qcom/opensource/wlan/qcacld-3.0/core/hdd/src -I/home/aju/Android/evox/kernel/motorola/sm7450-modules/qcom/opensource/wlan/qcacld-3.0/os_if/sync/inc -I/home/aju/Android/evox/kernel/motorola/sm7450-modules/qcom/opensource/wlan/qcacld-3.0/os_if/sync/src -I/home/aju/Android/evox/kernel/motorola/sm7450-modules/qcom/opensource/wlan/qcacld-3.0/components/dsc/inc -I/home/aju/Android/evox/kernel/motorola/sm7450-modules/qcom/opensource/wlan/qcacld-3.0/components/dsc/src -I/home/aju/Android/evox/kernel/motorola/sm7450-modules/qcom/opensource/wlan/qcacld-3.0/components/dsc/test -I/home/aju/Android/evox/kernel/motorola/sm7450-modules/qcom/opensource/wlan/qcacld-3.0/cmn/utils/epping/inc -Iinclude -I/home/aju/Android/evox/kernel/motorola/sm7450-modules/qcom/opensource/wlan/qcacld-3.0/core/mac/inc -I/home/aju/Android/evox/kernel/motorola/sm7450-modules/qcom/opensource/wlan/qcacld-3.0/core/mac/src/dph -I/home/aju/Android/evox/kernel/motorola/sm7450-modules/qcom/opensource/wlan/qcacld-3.0/core/mac/src/include -I/home/aju/Android/evox/kernel/motorola/sm7450-modules/qcom/opensource/wlan/qcacld-3.0/core/mac/src/pe/include -I/home/aju/Android/evox/kernel/motorola/sm7450-modules/qcom/opensource/wlan/qcacld-3.0/core/mac/src/pe/lim -I/home/aju/Android/evox/kernel/motorola/sm7450-modules/qcom/opensource/wlan/qcacld-3.0/core/mac/src/pe/nan -I/home/aju/Android/evox/kernel/motorola/sm7450-modules/qcom/opensource/wlan/qcacld-3.0/core/sap/inc -I/home/aju/Android/evox/kernel/motorola/sm7450-modules/qcom/opensource/wlan/qcacld-3.0/core/sap/src -I/home/aju/Android/evox/kernel/motorola/sm7450-modules/qcom/opensource/wlan/qcacld-3.0/core/sme/inc -I/home/aju/Android/evox/kernel/motorola/sm7450-modules/qcom/opensource/wlan/qcacld-3.0/core/sme/src/csr -I/home/aju/Android/evox/kernel/motorola/sm7450-modules/qcom/opensource/wlan/qcacld-3.0/core/mac/src/sys/common/inc -I/home/aju/Android/evox/kernel/motorola/sm7450-modules/qcom/opensource/wlan/qcacld-3.0/core/mac/src/sys/legacy/src/platform/inc -I/home/aju/Android/evox/kernel/motorola/sm7450-modules/qcom/opensource/wlan/qcacld-3.0/core/mac/src/sys/legacy/src/system/inc -I/home/aju/Android/evox/kernel/motorola/sm7450-modules/qcom/opensource/wlan/qcacld-3.0/core/mac/src/sys/legacy/src/utils/inc -I/home/aju/Android/evox/kernel/motorola/sm7450-modules/qcom/opensource/wlan/qcacld-3.0/components/wmi/inc -I/home/aju/Android/evox/kernel/motorola/sm7450-modules/qcom/opensource/wlan/qcacld-3.0/cmn/qal/inc -I/home/aju/Android/evox/kernel/motorola/sm7450-modules/qcom/opensource/wlan/qcacld-3.0/cmn/qal/linux/src -I/home/aju/Android/evox/kernel/motorola/sm7450-modules/qcom/opensource/wlan/qcacld-3.0/cmn/qdf/inc -I/home/aju/Android/evox/kernel/motorola/sm7450-modules/qcom/opensource/wlan/qcacld-3.0/cmn/qdf/linux/src -I/home/aju/Android/evox/kernel/motorola/sm7450-modules/qcom/opensource/wlan/qcacld-3.0/cmn/qdf/test -I/home/aju/Android/evox/kernel/motorola/sm7450-modules/qcom/opensource/wlan/qcacld-3.0/cmn/wbuff/inc -I/home/aju/Android/evox/kernel/motorola/sm7450-modules/qcom/opensource/wlan/qcacld-3.0/core/cds/inc -I/home/aju/Android/evox/kernel/motorola/sm7450-modules/qcom/opensource/wlan/qcacld-3.0/core/cds/src -I/home/aju/Android/evox/kernel/motorola/sm7450-modules/qcom/opensource/wlan/qcacld-3.0/cmn/cfg/inc -I/home/aju/Android/evox/kernel/motorola/sm7450-modules/qcom/opensource/wlan/qcacld-3.0/cmn/cfg/dispatcher/inc -I/home/aju/Android/evox/kernel/motorola/sm7450-modules/qcom/opensource/wlan/qcacld-3.0/components/cfg -I/home/aju/Android/evox/kernel/motorola/sm7450-modules/qcom/opensource/wlan/qcacld-3.0/cmn/umac/dfs/dispatcher/inc -I/home/aju/Android/evox/kernel/motorola/sm7450-modules/qcom/opensource/wlan/qcacld-3.0/cmn/target_if/dfs/inc -I/home/aju/Android/evox/kernel/motorola/sm7450-modules/qcom/opensource/wlan/qcacld-3.0/cmn/umac/cmn_services/dfs/inc -I/home/aju/Android/evox/kernel/motorola/sm7450-modules/qcom/opensource/wlan/qcacld-3.0/cmn/target_if/core/inc -I/home/aju/Android/evox/kernel/motorola/sm7450-modules/qcom/opensource/wlan/qcacld-3.0/cmn/target_if/core/src -I/home/aju/Android/evox/kernel/motorola/sm7450-modules/qcom/opensource/wlan/qcacld-3.0/cmn/target_if/init_deinit/inc -I/home/aju/Android/evox/kernel/motorola/sm7450-modules/qcom/opensource/wlan/qcacld-3.0/cmn/target_if/crypto/inc -I/home/aju/Android/evox/kernel/motorola/sm7450-modules/qcom/opensource/wlan/qcacld-3.0/cmn/target_if/regulatory/inc -I/home/aju/Android/evox/kernel/motorola/sm7450-modules/qcom/opensource/wlan/qcacld-3.0/cmn/target_if/mlme/vdev_mgr/inc -I/home/aju/Android/evox/kernel/motorola/sm7450-modules/qcom/opensource/wlan/qcacld-3.0/cmn/target_if/dispatcher/inc -I/home/aju/Android/evox/kernel/motorola/sm7450-modules/qcom/opensource/wlan/qcacld-3.0/cmn/target_if/mlme/psoc/inc -I/home/aju/Android/evox/kernel/motorola/sm7450-modules/qcom/opensource/wlan/qcacld-3.0/components/target_if/pmo/inc -I/home/aju/Android/evox/kernel/motorola/sm7450-modules/qcom/opensource/wlan/qcacld-3.0/components/target_if/pmo/src -I/home/aju/Android/evox/kernel/motorola/sm7450-modules/qcom/opensource/wlan/qcacld-3.0/components/target_if/disa/inc -I/home/aju/Android/evox/kernel/motorola/sm7450-modules/qcom/opensource/wlan/qcacld-3.0/components/target_if/blacklist_mgr/inc -I/home/aju/Android/evox/kernel/motorola/sm7450-modules/qcom/opensource/wlan/qcacld-3.0/components/target_if/action_oui/inc -I/home/aju/Android/evox/kernel/motorola/sm7450-modules/qcom/opensource/wlan/qcacld-3.0/cmn/os_if/linux -I/home/aju/Android/evox/kernel/motorola/sm7450-modules/qcom/opensource/wlan/qcacld-3.0/cmn/os_if/linux/scan/inc -I/home/aju/Android/evox/kernel/motorola/sm7450-modules/qcom/opensource/wlan/qcacld-3.0/cmn/os_if/linux/spectral/inc -I/home/aju/Android/evox/kernel/motorola/sm7450-modules/qcom/opensource/wlan/qcacld-3.0/cmn/os_if/linux/crypto/inc -I/home/aju/Android/evox/kernel/motorola/sm7450-modules/qcom/opensource/wlan/qcacld-3.0/cmn/os_if/linux/mlme/inc -I/home/aju/Android/evox/kernel/motorola/sm7450-modules/qcom/opensource/wlan/qcacld-3.0/cmn/os_if/linux/gpio/inc -I/home/aju/Android/evox/kernel/motorola/sm7450-modules/qcom/opensource/wlan/qcacld-3.0/cmn/global_lmac_if/inc -I/home/aju/Android/evox/kernel/motorola/sm7450-modules/qcom/opensource/wlan/qcacld-3.0/cmn/global_lmac_if/src -I/home/aju/Android/evox/kernel/motorola/sm7450-modules/qcom/opensource/wlan/qcacld-3.0/cmn/ftm/dispatcher/inc -I/home/aju/Android/evox/kernel/motorola/sm7450-modules/qcom/opensource/wlan/qcacld-3.0/cmn/ftm/core/src -I/home/aju/Android/evox/kernel/motorola/sm7450-modules/qcom/opensource/wlan/qcacld-3.0/cmn/os_if/linux/ftm/inc -I/home/aju/Android/evox/kernel/motorola/sm7450-modules/qcom/opensource/wlan/qcacld-3.0/cmn/target_if/ftm/inc -I/home/aju/Android/evox/kernel/motorola/sm7450-modules/qcom/opensource/wlan/qcacld-3.0/core/wma/inc -I/home/aju/Android/evox/kernel/motorola/sm7450-modules/qcom/opensource/wlan/qcacld-3.0/core/wma/src -I/home/aju/Android/evox/kernel/motorola/sm7450-modules/qcom/opensource/wlan/qcacld-3.0/uapi/linux -I/home/aju/Android/evox/kernel/motorola/sm7450-modules/qcom/opensource/wlan/qcacld-3.0/core/common -I/home/aju/Android/evox/kernel/motorola/sm7450-modules/qcom/opensource/wlan/qcacld-3.0/cmn/wmi/inc -I/home/aju/Android/evox/kernel/motorola/sm7450-modules/qcom/opensource/wlan/qcacld-3.0/cmn/utils/fwlog -I/home/aju/Android/evox/kernel/motorola/sm7450-modules/qcom/opensource/wlan/qcacld-3.0/core/dp/txrx -I/home/aju/Android/evox/kernel/motorola/sm7450-modules/qcom/opensource/wlan/qcacld-3.0/core/dp/ol/inc -I/home/aju/Android/evox/kernel/motorola/sm7450-modules/qcom/opensource/wlan/qcacld-3.0/cmn/dp/inc -I/home/aju/Android/evox/kernel/motorola/sm7450-modules/qcom/opensource/wlan/qcacld-3.0/cmn/utils/pktlog/include -I/home/aju/Android/evox/kernel/motorola/sm7450-modules/qcom/opensource/wlan/qcacld-3.0/core/dp/htt -I/home/aju/Android/evox/kernel/motorola/sm7450-modules/qcom/opensource/wlan/qcacld-3.0/cmn/init_deinit/dispatcher/inc -I/home/aju/Android/evox/kernel/motorola/sm7450-modules/qcom/opensource/wlan/qcacld-3.0/cmn/scheduler/inc -I/home/aju/Android/evox/kernel/motorola/sm7450-modules/qcom/opensource/wlan/qcacld-3.0/cmn/umac/regulatory/core/inc -I/home/aju/Android/evox/kernel/motorola/sm7450-modules/qcom/opensource/wlan/qcacld-3.0/cmn/umac/regulatory/dispatcher/inc -I/home/aju/Android/evox/kernel/motorola/sm7450-modules/qcom/opensource/wlan/qcacld-3.0/cmn/htc -I/home/aju/Android/evox/kernel/motorola/sm7450-modules/qcom/opensource/wlan/qcacld-3.0/cmn/umac/dfs/dispatcher/inc -I/home/aju/Android/evox/kernel/motorola/sm7450-modules/qcom/opensource/wlan/qcacld-3.0/cmn/target_if/dfs/inc -I/home/aju/Android/evox/kernel/motorola/sm7450-modules/qcom/opensource/wlan/qcacld-3.0/cmn/umac/cmn_services/dfs/inc -I/home/aju/Android/evox/kernel/motorola/sm7450-modules/qcom/opensource/wlan/qcacld-3.0/cmn/wlan_cfg -I/home/aju/Android/evox/kernel/motorola/sm7450-modules/qcom/opensource/wlan/qcacld-3.0/core/dp/txrx3.0 -I/home/aju/Android/evox/kernel/motorola/sm7450-modules/qcom/opensource/wlan/qcacld-3.0/cmn/hif/inc -I/home/aju/Android/evox/kernel/motorola/sm7450-modules/qcom/opensource/wlan/qcacld-3.0/cmn/hif/src -I/home/aju/Android/evox/kernel/motorola/sm7450-modules/qcom/opensource/wlan/qcacld-3.0/cmn/hif/src/dispatcher -I/home/aju/Android/evox/kernel/motorola/sm7450-modules/qcom/opensource/wlan/qcacld-3.0/cmn/hif/src/ipcie -I/home/aju/Android/evox/kernel/motorola/sm7450-modules/qcom/opensource/wlan/qcacld-3.0/cmn/hif/src/ce -I/home/aju/Android/evox/kernel/motorola/sm7450-modules/qcom/opensource/wlan/qcacld-3.0/core/bmi/inc -I/home/aju/Android/evox/kernel/motorola/sm7450-modules/qcom/opensource/wlan/qcacld-3.0/cmn/utils/sys -I/home/aju/Android/evox/kernel/motorola/sm7450-modules/qcom/opensource/wlan/qcacld-3.0/cmn/hal/inc -I/home/aju/Android/evox/kernel/motorola/sm7450-modules/qcom/opensource/wlan/qcacld-3.0/cmn/hal/wifi3.0 -I/home/aju/Android/evox/kernel/motorola/sm7450-modules/qcom/opensource/wlan/qcacld-3.0/cmn/hal/wifi3.0/li -I/home/aju/Android/evox/kernel/motorola/sm7450-modules/qcom/opensource/wlan/qcacld-3.0/cmn/hal/wifi3.0/qca6750 -I/home/aju/Android/evox/kernel/motorola/sm7450-modules/qcom/opensource/wlan/qcacld-3.0/cmn/dp/inc -I/home/aju/Android/evox/kernel/motorola/sm7450-modules/qcom/opensource/wlan/qcacld-3.0/cmn/dp/wifi3.0 -I/home/aju/Android/evox/kernel/motorola/sm7450-modules/qcom/opensource/wlan/qcacld-3.0/cmn/target_if/dp/inc -I/home/aju/Android/evox/kernel/motorola/sm7450-modules/qcom/opensource/wlan/qcacld-3.0/cmn/dp/wifi3.0/monitor -I/home/aju/Android/evox/kernel/motorola/sm7450-modules/qcom/opensource/wlan/qcacld-3.0/cmn/dp/wifi3.0/monitor/1.0 -I/home/aju/Android/evox/kernel/motorola/sm7450-modules/qcom/opensource/wlan/qcacld-3.0/cmn/umac/wifi_pos/inc -I/home/aju/Android/evox/kernel/motorola/sm7450-modules/qcom/opensource/wlan/qcacld-3.0/cmn/target_if/wifi_pos/inc -I/home/aju/Android/evox/kernel/motorola/sm7450-modules/qcom/opensource/wlan/qcacld-3.0/cmn/os_if/linux/wifi_pos/inc -I/home/aju/Android/evox/kernel/motorola/sm7450-modules/qcom/opensource/wlan/qcacld-3.0/cmn/os_if/linux/cp_stats/inc -I/home/aju/Android/evox/kernel/motorola/sm7450-modules/qcom/opensource/wlan/qcacld-3.0/cmn/target_if/cp_stats/inc -I/home/aju/Android/evox/kernel/motorola/sm7450-modules/qcom/opensource/wlan/qcacld-3.0/cmn/umac/cp_stats/core/src -I/home/aju/Android/evox/kernel/motorola/sm7450-modules/qcom/opensource/wlan/qcacld-3.0/cmn/umac/cp_stats/dispatcher/inc -I/home/aju/Android/evox/kernel/motorola/sm7450-modules/qcom/opensource/wlan/qcacld-3.0/components/cp_stats/dispatcher/inc -I/home/aju/Android/evox/kernel/motorola/sm7450-modules/qcom/opensource/wlan/qcacld-3.0/os_if/cp_stats/inc -I/home/aju/Android/evox/kernel/motorola/sm7450-modules/qcom/opensource/wlan/qcacld-3.0/cmn/umac -I/home/aju/Android/evox/kernel/motorola/sm7450-modules/qcom/opensource/wlan/qcacld-3.0/components/umac -I/home/aju/Android/evox/kernel/motorola/sm7450-modules/qcom/opensource/wlan/qcacld-3.0/cmn/os_if/linux/twt/inc -I/home/aju/Android/evox/kernel/motorola/sm7450-modules/qcom/opensource/wlan/qcacld-3.0/cmn/umac/twt/dispatcher/inc -I/home/aju/Android/evox/kernel/motorola/sm7450-modules/qcom/opensource/wlan/qcacld-3.0/cmn/target_if/twt/inc -I/home/aju/Android/evox/kernel/motorola/sm7450-modules/qcom/opensource/wlan/qcacld-3.0/os_if/twt/inc -I/home/aju/Android/evox/kernel/motorola/sm7450-modules/qcom/opensource/wlan/qcacld-3.0/components/umac/twt/dispatcher/inc -I/home/aju/Android/evox/kernel/motorola/sm7450-modules/qcom/opensource/wlan/qcacld-3.0/components/target_if/twt/inc -I/home/aju/Android/evox/kernel/motorola/sm7450-modules/qcom/opensource/wlan/qcacld-3.0/cmn/umac/twt/core/src -I/home/aju/Android/evox/kernel/motorola/sm7450-modules/qcom/opensource/wlan/qcacld-3.0/components/umac/twt/core/src -I/home/aju/Android/evox/kernel/motorola/sm7450-modules/qcom/opensource/wlan/qcacld-3.0/cmn/target_if/dcs/inc -I/home/aju/Android/evox/kernel/motorola/sm7450-modules/qcom/opensource/wlan/qcacld-3.0/cmn/umac/dcs/dispatcher/inc -I/home/aju/Android/evox/kernel/motorola/sm7450-modules/qcom/opensource/wlan/qcacld-3.0/os_if/interop_issues_ap/inc -I/home/aju/Android/evox/kernel/motorola/sm7450-modules/qcom/opensource/wlan/qcacld-3.0/components/target_if/interop_issues_ap/inc -I/home/aju/Android/evox/kernel/motorola/sm7450-modules/qcom/opensource/wlan/qcacld-3.0/components/interop_issues_ap/dispatcher/inc -I/home/aju/Android/evox/kernel/motorola/sm7450-modules/qcom/opensource/wlan/qcacld-3.0/components/interop_issues_ap/core/inc -I/home/aju/Android/evox/kernel/motorola/sm7450-modules/qcom/opensource/wlan/qcacld-3.0/components/nan/core/inc -I/home/aju/Android/evox/kernel/motorola/sm7450-modules/qcom/opensource/wlan/qcacld-3.0/components/nan/dispatcher/inc -I/home/aju/Android/evox/kernel/motorola/sm7450-modules/qcom/opensource/wlan/qcacld-3.0/components/target_if/nan/inc -I/home/aju/Android/evox/kernel/motorola/sm7450-modules/qcom/opensource/wlan/qcacld-3.0/os_if/nan/inc -I/home/aju/Android/evox/kernel/motorola/sm7450-modules/qcom/opensource/wlan/qcacld-3.0/components/son/dispatcher/inc -I/home/aju/Android/evox/kernel/motorola/sm7450-modules/qcom/opensource/wlan/qcacld-3.0/os_if/son/inc -I/home/aju/Android/evox/kernel/motorola/sm7450-modules/qcom/opensource/wlan/qcacld-3.0/cmn/umac/cmn_services/obj_mgr/inc -I/home/aju/Android/evox/kernel/motorola/sm7450-modules/qcom/opensource/wlan/qcacld-3.0/cmn/umac/cmn_services/obj_mgr/src -I/home/aju/Android/evox/kernel/motorola/sm7450-modules/qcom/opensource/wlan/qcacld-3.0/cmn/umac/cmn_services/inc -I/home/aju/Android/evox/kernel/motorola/sm7450-modules/qcom/opensource/wlan/qcacld-3.0/cmn/umac/global_umac_dispatcher/lmac_if/inc -I/home/aju/Android/evox/kernel/motorola/sm7450-modules/qcom/opensource/wlan/qcacld-3.0/cmn/umac/cmn_services/mgmt_txrx/dispatcher/inc -I/home/aju/Android/evox/kernel/motorola/sm7450-modules/qcom/opensource/wlan/qcacld-3.0/components/pmo/core/inc -I/home/aju/Android/evox/kernel/motorola/sm7450-modules/qcom/opensource/wlan/qcacld-3.0/components/pmo/core/src -I/home/aju/Android/evox/kernel/motorola/sm7450-modules/qcom/opensource/wlan/qcacld-3.0/components/pmo/dispatcher/inc -I/home/aju/Android/evox/kernel/motorola/sm7450-modules/qcom/opensource/wlan/qcacld-3.0/components/pmo/dispatcher/src -I/home/aju/Android/evox/kernel/motorola/sm7450-modules/qcom/opensource/wlan/qcacld-3.0/components/p2p/dispatcher/inc -I/home/aju/Android/evox/kernel/motorola/sm7450-modules/qcom/opensource/wlan/qcacld-3.0/os_if/p2p/inc -I/home/aju/Android/evox/kernel/motorola/sm7450-modules/qcom/opensource/wlan/qcacld-3.0/components/target_if/p2p/inc -I/home/aju/Android/evox/kernel/motorola/sm7450-modules/qcom/opensource/wlan/qcacld-3.0/components/cmn_services/policy_mgr/inc -I/home/aju/Android/evox/kernel/motorola/sm7450-modules/qcom/opensource/wlan/qcacld-3.0/components/cmn_services/policy_mgr/src -I/home/aju/Android/evox/kernel/motorola/sm7450-modules/qcom/opensource/wlan/qcacld-3.0/../fw-api//fw -I/home/aju/Android/evox/kernel/motorola/sm7450-modules/qcom/opensource/wlan/qcacld-3.0/../fw-api//hw/qca6750/v1 -I/home/aju/Android/evox/kernel/motorola/sm7450-modules/qcom/opensource/wlan/qcacld-3.0/components/tdls/dispatcher/inc -I/home/aju/Android/evox/kernel/motorola/sm7450-modules/qcom/opensource/wlan/qcacld-3.0/components/tdls/core/src -I/home/aju/Android/evox/kernel/motorola/sm7450-modules/qcom/opensource/wlan/qcacld-3.0/os_if/tdls/inc -I/home/aju/Android/evox/kernel/motorola/sm7450-modules/qcom/opensource/wlan/qcacld-3.0/components/target_if/tdls/inc -I/home/aju/Android/evox/kernel/motorola/sm7450-modules/qcom/opensource/wlan/qcacld-3.0/cmn/umac/cmn_services/serialization/inc -I/home/aju/Android/evox/kernel/motorola/sm7450-modules/qcom/opensource/wlan/qcacld-3.0/cmn/utils/nlink/inc -I/home/aju/Android/evox/kernel/motorola/sm7450-modules/qcom/opensource/wlan/qcacld-3.0/cmn/utils/ptt/inc -I/home/aju/Android/evox/kernel/motorola/sm7450-modules/qcom/opensource/wlan/qcacld-3.0/cmn/utils/logging/inc -I/home/aju/Android/evox/kernel/motorola/sm7450-modules/qcom/opensource/wlan/qcacld-3.0/core/pld/inc -I/home/aju/Android/evox/kernel/motorola/sm7450-modules/qcom/opensource/wlan/qcacld-3.0/core/pld/src -I/home/aju/Android/evox/kernel/motorola/sm7450-modules/qcom/opensource/wlan/qcacld-3.0/components/ocb/core/inc -I/home/aju/Android/evox/kernel/motorola/sm7450-modules/qcom/opensource/wlan/qcacld-3.0/components/ocb/dispatcher/inc -I/home/aju/Android/evox/kernel/motorola/sm7450-modules/qcom/opensource/wlan/qcacld-3.0/components/ipa/core/inc -I/home/aju/Android/evox/kernel/motorola/sm7450-modules/qcom/opensource/wlan/qcacld-3.0/components/ipa/dispatcher/inc -I/home/aju/Android/evox/kernel/motorola/sm7450-modules/qcom/opensource/wlan/qcacld-3.0/cmn/umac/cmn_services/sm_engine/inc -I/home/aju/Android/evox/kernel/motorola/sm7450-modules/qcom/opensource/wlan/qcacld-3.0/cmn/umac/mlme -I/home/aju/Android/evox/kernel/motorola/sm7450-modules/qcom/opensource/wlan/qcacld-3.0/cmn/umac/mlme/mlme_objmgr/dispatcher/inc -I/home/aju/Android/evox/kernel/motorola/sm7450-modules/qcom/opensource/wlan/qcacld-3.0/cmn/umac/mlme/vdev_mgr/dispatcher/inc -I/home/aju/Android/evox/kernel/motorola/sm7450-modules/qcom/opensource/wlan/qcacld-3.0/cmn/umac/mlme/pdev_mgr/dispatcher/inc -I/home/aju/Android/evox/kernel/motorola/sm7450-modules/qcom/opensource/wlan/qcacld-3.0/cmn/umac/mlme/psoc_mgr/dispatcher/inc -I/home/aju/Android/evox/kernel/motorola/sm7450-modules/qcom/opensource/wlan/qcacld-3.0/cmn/umac/mlme/connection_mgr/dispatcher/inc -I/home/aju/Android/evox/kernel/motorola/sm7450-modules/qcom/opensource/wlan/qcacld-3.0/cmn/umac/mlme/connection_mgr/utf/inc -I/home/aju/Android/evox/kernel/motorola/sm7450-modules/qcom/opensource/wlan/qcacld-3.0/components/mlme/core/inc -I/home/aju/Android/evox/kernel/motorola/sm7450-modules/qcom/opensource/wlan/qcacld-3.0/components/mlme/dispatcher/inc -I/home/aju/Android/evox/kernel/motorola/sm7450-modules/qcom/opensource/wlan/qcacld-3.0/components/umac/mlme/connection_mgr/dispatcher/inc -I/home/aju/Android/evox/kernel/motorola/sm7450-modules/qcom/opensource/wlan/qcacld-3.0/components/umac/mlme/connection_mgr/utf/inc -I/home/aju/Android/evox/kernel/motorola/sm7450-modules/qcom/opensource/wlan/qcacld-3.0/components/target_if/connection_mgr/inc -I/home/aju/Android/evox/kernel/motorola/sm7450-modules/qcom/opensource/wlan/qcacld-3.0/components/umac/mlme/wfa_config/dispatcher/inc -I/home/aju/Android/evox/kernel/motorola/sm7450-modules/qcom/opensource/wlan/qcacld-3.0/components/target_if/wfa_config/inc -I/home/aju/Android/evox/kernel/motorola/sm7450-modules/qcom/opensource/wlan/qcacld-3.0/components/fw_offload/core/inc -I/home/aju/Android/evox/kernel/motorola/sm7450-modules/qcom/opensource/wlan/qcacld-3.0/components/fw_offload/dispatcher/inc -I/home/aju/Android/evox/kernel/motorola/sm7450-modules/qcom/opensource/wlan/qcacld-3.0/components/target_if/fw_offload/inc -I/home/aju/Android/evox/kernel/motorola/sm7450-modules/qcom/opensource/wlan/qcacld-3.0/os_if/fw_offload/inc -I/home/aju/Android/evox/kernel/motorola/sm7450-modules/qcom/opensource/wlan/qcacld-3.0/cmn/umac/thermal/dispatcher/inc -I/home/aju/Android/evox/kernel/motorola/sm7450-modules/qcom/opensource/wlan/qcacld-3.0/components/blacklist_mgr/core/inc -I/home/aju/Android/evox/kernel/motorola/sm7450-modules/qcom/opensource/wlan/qcacld-3.0/components/blacklist_mgr/dispatcher/inc -I/home/aju/Android/evox/kernel/motorola/sm7450-modules/qcom/opensource/wlan/qcacld-3.0/components/cmn_services/logging/inc -I/home/aju/Android/evox/kernel/motorola/sm7450-modules/qcom/opensource/wlan/qcacld-3.0/cmn/utils/pktlog/include -I/home/aju/Android/evox/kernel/motorola/sm7450-modules/qcom/opensource/wlan/qcacld-3.0/cmn/utils/host_diag_log/inc -I/home/aju/Android/evox/kernel/motorola/sm7450-modules/qcom/opensource/wlan/qcacld-3.0/cmn/utils/host_diag_log/src -I/home/aju/Android/evox/kernel/motorola/sm7450-modules/qcom/opensource/wlan/qcacld-3.0/components/disa/core/inc -I/home/aju/Android/evox/kernel/motorola/sm7450-modules/qcom/opensource/wlan/qcacld-3.0/components/disa/dispatcher/inc -I/home/aju/Android/evox/kernel/motorola/sm7450-modules/qcom/opensource/wlan/qcacld-3.0/components/action_oui/core/inc -I/home/aju/Android/evox/kernel/motorola/sm7450-modules/qcom/opensource/wlan/qcacld-3.0/components/action_oui/dispatcher/inc -I/home/aju/Android/evox/kernel/motorola/sm7450-modules/qcom/opensource/wlan/qcacld-3.0/components/pkt_capture/core/inc -I/home/aju/Android/evox/kernel/motorola/sm7450-modules/qcom/opensource/wlan/qcacld-3.0/components/pkt_capture/dispatcher/inc -I/home/aju/Android/evox/kernel/motorola/sm7450-modules/qcom/opensource/wlan/qcacld-3.0/components/target_if/pkt_capture//inc -I/home/aju/Android/evox/kernel/motorola/sm7450-modules/qcom/opensource/wlan/qcacld-3.0/os_if/pkt_capture/inc -I/home/aju/Android/evox/kernel/motorola/sm7450-modules/qcom/opensource/wlan/qcacld-3.0/components/ftm_time_sync/core/inc -I/home/aju/Android/evox/kernel/motorola/sm7450-modules/qcom/opensource/wlan/qcacld-3.0/components/ftm_time_sync/dispatcher/inc -I/home/aju/Android/evox/kernel/motorola/sm7450-modules/qcom/opensource/wlan/qcacld-3.0/cmn/umac/global_umac_dispatcher/lmac_if/inc -I/home/aju/Android/evox/kernel/motorola/sm7450-modules/qcom/opensource/wlan/qcacld-3.0/cmn/umac/scan/dispatcher/inc -I/home/aju/Android/evox/kernel/motorola/sm7450-modules/qcom/opensource/wlan/qcacld-3.0/cmn/target_if/scan/inc -I/home/aju/Android/evox/kernel/motorola/sm7450-modules/qcom/opensource/wlan/qcacld-3.0/cmn/umac/green_ap/dispatcher/inc -I/home/aju/Android/evox/kernel/motorola/sm7450-modules/qcom/opensource/wlan/qcacld-3.0/cmn/target_if/green_ap/inc -I/home/aju/Android/evox/kernel/motorola/sm7450-modules/qcom/opensource/wlan/qcacld-3.0/cmn/umac/cmn_services/cmn_defs/inc -I/home/aju/Android/evox/kernel/motorola/sm7450-modules/qcom/opensource/wlan/qcacld-3.0/cmn/umac/cmn_services/utils/inc -I/home/aju/Android/evox/kernel/motorola/sm7450-modules/qcom/opensource/wlan/qcacld-3.0/cmn/spectral/dispatcher/inc -I/home/aju/Android/evox/kernel/motorola/sm7450-modules/qcom/opensource/wlan/qcacld-3.0/cmn/spectral/core -I/home/aju/Android/evox/kernel/motorola/sm7450-modules/qcom/opensource/wlan/qcacld-3.0/cmn/target_if/direct_buf_rx/inc -I/home/aju/Android/evox/kernel/motorola/sm7450-modules/qcom/opensource/wlan/qcacld-3.0/cmn/umac/cfr/dispatcher/inc -I/home/aju/Android/evox/kernel/motorola/sm7450-modules/qcom/opensource/wlan/qcacld-3.0/cmn/umac/cfr/core/inc -I/home/aju/Android/evox/kernel/motorola/sm7450-modules/qcom/opensource/wlan/qcacld-3.0/cmn/target_if/cfr/inc -I/home/aju/Android/evox/kernel/motorola/sm7450-modules/qcom/opensource/wlan/qcacld-3.0/cmn/target_if/spectral -I/home/aju/Android/evox/kernel/motorola/sm7450-modules/qcom/opensource/wlan/qcacld-3.0/cmn/gpio/dispatcher/inc -I/home/aju/Android/evox/kernel/motorola/sm7450-modules/qcom/opensource/wlan/qcacld-3.0/cmn/gpio/core/inc -I/home/aju/Android/evox/kernel/motorola/sm7450-modules/qcom/opensource/wlan/qcacld-3.0/cmn/-I/home/aju/Android/evox/kernel/motorola/sm7450-modules/qcom/opensource/wlan/qcacld-3.0/cmn/target_if/gpio -I/home/aju/Android/evox/kernel/motorola/sm7450-modules/qcom/opensource/wlan/qcacld-3.0/cmn/target_if/gpio -I/home/aju/Android/evox/kernel/motorola/sm7450-modules/qcom/opensource/wlan/qcacld-3.0/cmn/target_if/direct_buf_tx/inc -I/home/aju/Android/evox/kernel/motorola/sm7450-modules/qcom/opensource/wlan/qcacld-3.0/cmn/umac/cmn_services/crypto/inc -I/home/aju/Android/evox/kernel/motorola/sm7450-modules/qcom/opensource/wlan/qcacld-3.0/cmn/umac/cmn_services/crypto/src -I/home/aju/Android/evox/kernel/motorola/sm7450-modules/qcom/opensource/wlan/qcacld-3.0/cmn/umac/cmn_services/interface_mgr/inc -I/home/aju/Android/evox/kernel/motorola/sm7450-modules/qcom/opensource/wlan/qcacld-3.0/components/cmn_services/interface_mgr/inc -I/home/aju/Android/evox/kernel/motorola/sm7450-modules/qcom/opensource/wlan/qcacld-3.0/cmn/umac/mlo_mgr/inc -I/home/aju/Android/evox/kernel/motorola/sm7450-modules/qcom/opensource/wlan/qcacld-3.0/cmn/target_if/mlo_mgr/inc -I/home/aju/Android/evox/kernel/motorola/sm7450-modules/qcom/opensource/wlan/qcacld-3.0/components/umac/mlme/mlo_mgr/inc -I/home/aju/Android/evox/kernel/motorola/sm7450-modules/qcom/opensource/wlan/qcacld-3.0/os_if/coex/inc -I/home/aju/Android/evox/kernel/motorola/sm7450-modules/qcom/opensource/wlan/qcacld-3.0/components/target_if/coex/inc -I/home/aju/Android/evox/kernel/motorola/sm7450-modules/qcom/opensource/wlan/qcacld-3.0/components/coex/dispatcher/inc -I/home/aju/Android/evox/kernel/motorola/sm7450-modules/qcom/opensource/wlan/qcacld-3.0/components/coex/core/inc -I/home/aju/Android/evox/kernel/motorola/sm7450-modules/qcom/opensource/wlan/qcacld-3.0/os_if/coap/inc -I/home/aju/Android/evox/kernel/motorola/sm7450-modules/qcom/opensource/wlan/qcacld-3.0/components/target_if/coap/inc -I/home/aju/Android/evox/kernel/motorola/sm7450-modules/qcom/opensource/wlan/qcacld-3.0/components/coap/dispatcher/inc -I/home/aju/Android/evox/kernel/motorola/sm7450-modules/qcom/opensource/wlan/qcacld-3.0/components/coap/core/inc -I/home/aju/Android/evox/kernel/motorola/sm7450-modules/qcom/opensource/wlan/qcacld-3.0/components/wmi/inc -DWLAN_POWER_MANAGEMENT_OFFLOAD -DCE_SVC_CMN_INIT -DDP_LEGACY_MODE_CSM_DEFAULT_DISABLE=1 -DWLAN_MAX_PSOCS=1 -DWLAN_MAX_PDEVS=1 -DWLAN_MAX_ML_VDEVS=0 -DWLAN_MAX_VDEVS=6 -DWLAN_SER_MAX_PENDING_CMDS_AP=32+3 -DWLAN_SER_MAX_PENDING_CMDS_STA=4 -DWLAN_SER_MAX_PENDING_CMDS=32*3+4*2 -DWLAN_PDEV_MAX_VDEVS=6 -DWLAN_PSOC_MAX_VDEVS=6 -DMAX_SCAN_CACHE_SIZE=500 -DSCAN_MAX_REST_TIME=0 -DSCAN_MIN_REST_TIME=0 -DSCAN_BURST_DURATION=0 -DSCAN_PROBE_SPACING_TIME=0 -DSCAN_PROBE_DELAY=0 -DSCAN_MAX_SCAN_TIME=30000 -DSCAN_NETWORK_IDLE_TIMEOUT=0 -DHIDDEN_SSID_TIME=0xFFFFFFFF -DSCAN_CHAN_STATS_EVENT_ENAB=false -DMAX_BCN_PROBE_IN_SCAN_QUEUE=150 -DRX_DIAG_WQ_MAX_SIZE=1000 -DMGMT_DESC_POOL_MAX=64 -DFW_THERMAL_THROTTLE_SUPPORT -DHASTINGS_BT_WAR -DFEATURE_FOURTH_CONNECTION -DWLAN_FEATURE_WMI_SEND_RECV_QMI -DDP_RX_BUFFER_POOL_SIZE=128 -DDP_RX_BUFFER_POOL_ALLOC_THRES=5 -Wmissing-prototypes -Wheader-guard -DMULTI_IF_NAME=\"qca_cld3_qca6750\" -DWLAN_HOST_ARCH_ARM=1  -fsanitize=array-bounds -fsanitize=local-bounds -fsanitize-undefined-trap-on-error  -DMODULE  -DKBUILD_BASENAME='"qdf_hang_event_notifier"' -DKBUILD_MODNAME='"qdf"' -D__KBUILD_MODNAME=kmod_qdf -c -o /home/aju/Android/evox/kernel/motorola/sm7450-modules/qcom/opensource/wlan/qcacld-3.0/cmn/qdf/src/qdf_hang_event_notifier.o /home/aju/Android/evox/kernel/motorola/sm7450-modules/qcom/opensource/wlan/qcacld-3.0/cmn/qdf/src/qdf_hang_event_notifier.c
+
+source_/home/aju/Android/evox/kernel/motorola/sm7450-modules/qcom/opensource/wlan/qcacld-3.0/cmn/qdf/src/qdf_hang_event_notifier.o := /home/aju/Android/evox/kernel/motorola/sm7450-modules/qcom/opensource/wlan/qcacld-3.0/cmn/qdf/src/qdf_hang_event_notifier.c
+
+deps_/home/aju/Android/evox/kernel/motorola/sm7450-modules/qcom/opensource/wlan/qcacld-3.0/cmn/qdf/src/qdf_hang_event_notifier.o := \
+  ../include/linux/kconfig.h \
+    $(wildcard include/config/cc/version/text.h) \
+    $(wildcard include/config/cpu/big/endian.h) \
+    $(wildcard include/config/booger.h) \
+    $(wildcard include/config/foo.h) \
+  ../include/linux/compiler_types.h \
+    $(wildcard include/config/have/arch/compiler/h.h) \
+    $(wildcard include/config/enable/must/check.h) \
+    $(wildcard include/config/cc/has/asm/inline.h) \
+  ../include/linux/compiler_attributes.h \
+  ../include/linux/compiler-clang.h \
+    $(wildcard include/config/arch/use/builtin/bswap.h) \
+    $(wildcard include/config/clang/version.h) \
+  ../arch/arm64/include/asm/compiler.h \
+  /home/aju/Android/evox/kernel/motorola/sm7450-modules/qcom/opensource/wlan/qcacld-3.0/configs/default_config.h \
+    $(wildcard include/config/chan/freq/api.h) \
+    $(wildcard include/config/chan/num/api.h) \
+    $(wildcard include/config/fw/logs/based/on/ini.h) \
+  /home/aju/Android/evox/kernel/motorola/sm7450-modules/qcom/opensource/wlan/qcacld-3.0/cmn/qdf/linux/src/i_qdf_notifier.h \
+  ../include/linux/notifier.h \
+    $(wildcard include/config/tree/srcu.h) \
+  ../include/linux/errno.h \
+  ../include/uapi/linux/errno.h \
+  arch/arm64/include/generated/uapi/asm/errno.h \
+  ../include/uapi/asm-generic/errno.h \
+  ../include/uapi/asm-generic/errno-base.h \
+  ../include/linux/mutex.h \
+    $(wildcard include/config/mutex/spin/on/owner.h) \
+    $(wildcard include/config/debug/mutexes.h) \
+    $(wildcard include/config/debug/lock/alloc.h) \
+  ../arch/arm64/include/asm/current.h \
+  ../include/linux/compiler.h \
+    $(wildcard include/config/trace/branch/profiling.h) \
+    $(wildcard include/config/profile/all/branches.h) \
+    $(wildcard include/config/stack/validation.h) \
+    $(wildcard include/config/64bit.h) \
+  ../arch/arm64/include/asm/rwonce.h \
+    $(wildcard include/config/lto.h) \
+    $(wildcard include/config/as/has/ldapr.h) \
+  ../include/asm-generic/rwonce.h \
+  ../include/linux/kasan-checks.h \
+    $(wildcard include/config/kasan/generic.h) \
+    $(wildcard include/config/kasan/sw/tags.h) \
+  ../include/linux/types.h \
+    $(wildcard include/config/have/uid16.h) \
+    $(wildcard include/config/uid16.h) \
+    $(wildcard include/config/arch/dma/addr/t/64bit.h) \
+    $(wildcard include/config/phys/addr/t/64bit.h) \
+  ../include/uapi/linux/types.h \
+  arch/arm64/include/generated/uapi/asm/types.h \
+  ../include/uapi/asm-generic/types.h \
+  ../include/asm-generic/int-ll64.h \
+  ../include/uapi/asm-generic/int-ll64.h \
+  ../arch/arm64/include/uapi/asm/bitsperlong.h \
+  ../include/asm-generic/bitsperlong.h \
+  ../include/uapi/asm-generic/bitsperlong.h \
+  ../include/uapi/linux/posix_types.h \
+  ../include/linux/stddef.h \
+  ../include/uapi/linux/stddef.h \
+  ../arch/arm64/include/uapi/asm/posix_types.h \
+  ../include/uapi/asm-generic/posix_types.h \
+  ../include/linux/kcsan-checks.h \
+    $(wildcard include/config/kcsan.h) \
+    $(wildcard include/config/kcsan/ignore/atomics.h) \
+  ../include/linux/list.h \
+    $(wildcard include/config/debug/list.h) \
+  ../include/linux/poison.h \
+    $(wildcard include/config/illegal/pointer/value.h) \
+  ../include/linux/const.h \
+  ../include/vdso/const.h \
+  ../include/uapi/linux/const.h \
+  ../include/linux/kernel.h \
+    $(wildcard include/config/preempt/voluntary.h) \
+    $(wildcard include/config/debug/atomic/sleep.h) \
+    $(wildcard include/config/preempt/rt.h) \
+    $(wildcard include/config/mmu.h) \
+    $(wildcard include/config/prove/locking.h) \
+    $(wildcard include/config/panic/timeout.h) \
+    $(wildcard include/config/tracing.h) \
+    $(wildcard include/config/ftrace/mcount/record.h) \
+  ../include/linux/limits.h \
+  ../include/uapi/linux/limits.h \
+  ../include/vdso/limits.h \
+  ../include/linux/linkage.h \
+    $(wildcard include/config/arch/use/sym/annotations.h) \
+  ../include/linux/stringify.h \
+  ../include/linux/export.h \
+    $(wildcard include/config/modversions.h) \
+    $(wildcard include/config/module/rel/crcs.h) \
+    $(wildcard include/config/have/arch/prel32/relocations.h) \
+    $(wildcard include/config/cfi/clang.h) \
+    $(wildcard include/config/modules.h) \
+    $(wildcard include/config/trim/unused/ksyms.h) \
+    $(wildcard include/config/unused/symbols.h) \
+  ../arch/arm64/include/asm/linkage.h \
+    $(wildcard include/config/arm64/bti/kernel.h) \
+  ../include/linux/bitops.h \
+  ../include/linux/bits.h \
+  ../include/vdso/bits.h \
+  ../include/linux/build_bug.h \
+  ../arch/arm64/include/asm/bitops.h \
+  ../include/asm-generic/bitops/builtin-__ffs.h \
+  ../include/asm-generic/bitops/builtin-ffs.h \
+  ../include/asm-generic/bitops/builtin-__fls.h \
+  ../include/asm-generic/bitops/builtin-fls.h \
+  ../include/asm-generic/bitops/ffz.h \
+  ../include/asm-generic/bitops/fls64.h \
+  ../include/asm-generic/bitops/find.h \
+    $(wildcard include/config/generic/find/first/bit.h) \
+  ../include/asm-generic/bitops/sched.h \
+  ../include/asm-generic/bitops/hweight.h \
+  ../include/asm-generic/bitops/arch_hweight.h \
+  ../include/asm-generic/bitops/const_hweight.h \
+  ../include/asm-generic/bitops/atomic.h \
+  ../include/linux/atomic.h \
+  ../arch/arm64/include/asm/atomic.h \
+  ../arch/arm64/include/asm/barrier.h \
+    $(wildcard include/config/arm64/pseudo/nmi.h) \
+  ../include/asm-generic/barrier.h \
+    $(wildcard include/config/smp.h) \
+  ../arch/arm64/include/asm/cmpxchg.h \
+  ../arch/arm64/include/asm/lse.h \
+    $(wildcard include/config/arm64/lse/atomics.h) \
+  ../arch/arm64/include/asm/atomic_ll_sc.h \
+    $(wildcard include/config/cc/has/k/constraint.h) \
+  ../include/linux/jump_label.h \
+    $(wildcard include/config/jump/label.h) \
+    $(wildcard include/config/have/arch/jump/label/relative.h) \
+  ../arch/arm64/include/asm/jump_label.h \
+  ../arch/arm64/include/asm/insn.h \
+  ../arch/arm64/include/asm/brk-imm.h \
+  ../arch/arm64/include/asm/alternative.h \
+  ../arch/arm64/include/asm/alternative-macros.h \
+  ../arch/arm64/include/asm/cpucaps.h \
+  ../include/linux/init.h \
+    $(wildcard include/config/strict/kernel/rwx.h) \
+    $(wildcard include/config/strict/module/rwx.h) \
+    $(wildcard include/config/lto/clang.h) \
+  ../arch/arm64/include/asm/atomic_lse.h \
+  ../include/linux/atomic-arch-fallback.h \
+    $(wildcard include/config/generic/atomic64.h) \
+  ../include/asm-generic/atomic-instrumented.h \
+  ../include/linux/instrumented.h \
+  ../include/asm-generic/atomic-long.h \
+  ../include/asm-generic/bitops/lock.h \
+  ../include/asm-generic/bitops/non-atomic.h \
+  ../include/asm-generic/bitops/le.h \
+  ../arch/arm64/include/uapi/asm/byteorder.h \
+  ../include/linux/byteorder/little_endian.h \
+  ../include/uapi/linux/byteorder/little_endian.h \
+  ../include/linux/swab.h \
+  ../include/uapi/linux/swab.h \
+  arch/arm64/include/generated/uapi/asm/swab.h \
+  ../include/uapi/asm-generic/swab.h \
+  ../include/linux/byteorder/generic.h \
+  ../include/asm-generic/bitops/ext2-atomic-setbit.h \
+  ../include/linux/kstrtox.h \
+  ../include/linux/log2.h \
+    $(wildcard include/config/arch/has/ilog2/u32.h) \
+    $(wildcard include/config/arch/has/ilog2/u64.h) \
+  ../include/linux/minmax.h \
+  ../include/linux/typecheck.h \
+  ../include/linux/printk.h \
+    $(wildcard include/config/message/loglevel/default.h) \
+    $(wildcard include/config/console/loglevel/default.h) \
+    $(wildcard include/config/console/loglevel/quiet.h) \
+    $(wildcard include/config/early/printk.h) \
+    $(wildcard include/config/printk/nmi.h) \
+    $(wildcard include/config/printk.h) \
+    $(wildcard include/config/dynamic/debug.h) \
+    $(wildcard include/config/dynamic/debug/core.h) \
+  ../include/linux/kern_levels.h \
+  ../include/linux/ratelimit_types.h \
+  ../include/uapi/linux/param.h \
+  ../arch/arm64/include/uapi/asm/param.h \
+  ../include/asm-generic/param.h \
+    $(wildcard include/config/hz.h) \
+  ../include/uapi/asm-generic/param.h \
+  ../include/linux/spinlock_types.h \
+    $(wildcard include/config/debug/spinlock.h) \
+  ../arch/arm64/include/asm/spinlock_types.h \
+  ../include/asm-generic/qspinlock_types.h \
+    $(wildcard include/config/nr/cpus.h) \
+  ../include/asm-generic/qrwlock_types.h \
+  ../include/linux/lockdep_types.h \
+    $(wildcard include/config/prove/raw/lock/nesting.h) \
+    $(wildcard include/config/preempt/lock.h) \
+    $(wildcard include/config/lockdep.h) \
+    $(wildcard include/config/lock/stat.h) \
+  ../include/linux/rwlock_types.h \
+  arch/arm64/include/generated/asm/div64.h \
+  ../include/asm-generic/div64.h \
+  ../include/uapi/linux/kernel.h \
+  ../include/uapi/linux/sysinfo.h \
+  ../include/linux/lockdep.h \
+    $(wildcard include/config/debug/locking/api/selftests.h) \
+    $(wildcard include/config/preempt/count.h) \
+  ../include/linux/smp.h \
+    $(wildcard include/config/up/late/init.h) \
+    $(wildcard include/config/debug/preempt.h) \
+  ../include/linux/cpumask.h \
+    $(wildcard include/config/cpumask/offstack.h) \
+    $(wildcard include/config/hotplug/cpu.h) \
+    $(wildcard include/config/debug/per/cpu/maps.h) \
+  ../include/linux/threads.h \
+    $(wildcard include/config/base/small.h) \
+  ../include/linux/bitmap.h \
+  ../include/linux/string.h \
+    $(wildcard include/config/binary/printf.h) \
+    $(wildcard include/config/fortify/source.h) \
+  ../include/uapi/linux/string.h \
+  ../arch/arm64/include/asm/string.h \
+    $(wildcard include/config/arch/has/uaccess/flushcache.h) \
+  ../include/linux/bug.h \
+    $(wildcard include/config/generic/bug.h) \
+    $(wildcard include/config/bug/on/data/corruption.h) \
+  ../arch/arm64/include/asm/bug.h \
+  ../arch/arm64/include/asm/asm-bug.h \
+    $(wildcard include/config/debug/bugverbose.h) \
+  ../include/asm-generic/bug.h \
+    $(wildcard include/config/bug.h) \
+    $(wildcard include/config/generic/bug/relative/pointers.h) \
+  ../include/linux/instrumentation.h \
+    $(wildcard include/config/debug/entry.h) \
+  ../include/linux/smp_types.h \
+  ../include/linux/llist.h \
+    $(wildcard include/config/arch/have/nmi/safe/cmpxchg.h) \
+  ../include/linux/preempt.h \
+    $(wildcard include/config/trace/preempt/toggle.h) \
+    $(wildcard include/config/preemption.h) \
+    $(wildcard include/config/preempt/notifiers.h) \
+  ../include/linux/cleanup.h \
+  ../arch/arm64/include/asm/preempt.h \
+  ../include/linux/thread_info.h \
+    $(wildcard include/config/thread/info/in/task.h) \
+    $(wildcard include/config/have/arch/within/stack/frames.h) \
+    $(wildcard include/config/hardened/usercopy.h) \
+  ../include/linux/restart_block.h \
+  ../include/linux/time64.h \
+  ../include/linux/math64.h \
+    $(wildcard include/config/arch/supports/int128.h) \
+  ../include/vdso/math64.h \
+  ../include/vdso/time64.h \
+  ../include/uapi/linux/time.h \
+  ../include/uapi/linux/time_types.h \
+  ../arch/arm64/include/asm/thread_info.h \
+    $(wildcard include/config/arm64/sw/ttbr0/pan.h) \
+    $(wildcard include/config/shadow/call/stack.h) \
+  ../arch/arm64/include/asm/memory.h \
+    $(wildcard include/config/arm64/va/bits.h) \
+    $(wildcard include/config/kasan/shadow/offset.h) \
+    $(wildcard include/config/kasan.h) \
+    $(wildcard include/config/vmap/stack.h) \
+    $(wildcard include/config/arm64/4k/pages.h) \
+    $(wildcard include/config/kasan/hw/tags.h) \
+    $(wildcard include/config/debug/virtual.h) \
+    $(wildcard include/config/sparsemem/vmemmap.h) \
+    $(wildcard include/config/efi.h) \
+    $(wildcard include/config/arm/gic/v3/its.h) \
+  ../include/linux/sizes.h \
+  ../arch/arm64/include/asm/page-def.h \
+    $(wildcard include/config/arm64/page/shift.h) \
+  ../include/linux/mmdebug.h \
+    $(wildcard include/config/debug/vm.h) \
+    $(wildcard include/config/debug/vm/pgflags.h) \
+  ../include/asm-generic/memory_model.h \
+    $(wildcard include/config/flatmem.h) \
+    $(wildcard include/config/discontigmem.h) \
+    $(wildcard include/config/sparsemem.h) \
+  ../include/linux/pfn.h \
+  ../arch/arm64/include/asm/stack_pointer.h \
+  ../arch/arm64/include/asm/smp.h \
+    $(wildcard include/config/arm64/acpi/parking/protocol.h) \
+  ../arch/arm64/include/asm/percpu.h \
+  ../arch/arm64/include/asm/sysreg.h \
+    $(wildcard include/config/broken/gas/inst.h) \
+    $(wildcard include/config/arm64/pa/bits/52.h) \
+    $(wildcard include/config/arm64/16k/pages.h) \
+    $(wildcard include/config/arm64/64k/pages.h) \
+  ../include/linux/kasan-tags.h \
+  ../include/asm-generic/percpu.h \
+    $(wildcard include/config/have/setup/per/cpu/area.h) \
+  ../include/linux/percpu-defs.h \
+    $(wildcard include/config/debug/force/weak/per/cpu.h) \
+    $(wildcard include/config/amd/mem/encrypt.h) \
+  ../arch/arm64/include/asm/processor.h \
+    $(wildcard include/config/compat.h) \
+    $(wildcard include/config/kuser/helpers.h) \
+    $(wildcard include/config/arm64/force/52bit.h) \
+    $(wildcard include/config/have/hw/breakpoint.h) \
+    $(wildcard include/config/arm64/ptr/auth.h) \
+    $(wildcard include/config/arm64/mte.h) \
+    $(wildcard include/config/arm64/tagged/addr/abi.h) \
+    $(wildcard include/config/gcc/plugin/stackleak.h) \
+  ../include/linux/cache.h \
+    $(wildcard include/config/arch/has/cache/line/size.h) \
+  ../arch/arm64/include/asm/cache.h \
+  ../arch/arm64/include/asm/cputype.h \
+  ../arch/arm64/include/asm/mte-def.h \
+  ../include/linux/kasan-enabled.h \
+  ../include/linux/static_key.h \
+  ../include/linux/android_vendor.h \
+    $(wildcard include/config/android/vendor/oem/data.h) \
+  ../include/vdso/processor.h \
+  ../arch/arm64/include/asm/vdso/processor.h \
+  ../arch/arm64/include/asm/cpufeature.h \
+    $(wildcard include/config/arm64/sve.h) \
+    $(wildcard include/config/arm64/cnp.h) \
+    $(wildcard include/config/arm64/debug/priority/masking.h) \
+    $(wildcard include/config/arm64/bti.h) \
+    $(wildcard include/config/arm64/tlb/range.h) \
+    $(wildcard include/config/arm64/pa/bits.h) \
+    $(wildcard include/config/arm64/hw/afdbm.h) \
+    $(wildcard include/config/arm64/amu/extn.h) \
+  ../arch/arm64/include/asm/hwcap.h \
+  ../arch/arm64/include/uapi/asm/hwcap.h \
+  ../arch/arm64/include/asm/hw_breakpoint.h \
+  ../arch/arm64/include/asm/virt.h \
+    $(wildcard include/config/kvm.h) \
+  ../arch/arm64/include/asm/ptrace.h \
+  ../arch/arm64/include/uapi/asm/ptrace.h \
+  ../arch/arm64/include/uapi/asm/sve_context.h \
+  ../arch/arm64/include/asm/sections.h \
+  ../include/asm-generic/sections.h \
+  ../arch/arm64/include/asm/kasan.h \
+  ../arch/arm64/include/asm/mte-kasan.h \
+  ../arch/arm64/include/asm/pgtable-types.h \
+    $(wildcard include/config/pgtable/levels.h) \
+  ../include/asm-generic/pgtable-nopud.h \
+  ../include/asm-generic/pgtable-nop4d.h \
+  ../arch/arm64/include/asm/pgtable-hwdef.h \
+    $(wildcard include/config/arm64/cont/pte/shift.h) \
+    $(wildcard include/config/arm64/cont/pmd/shift.h) \
+    $(wildcard include/config/arm64/va/bits/52.h) \
+  ../arch/arm64/include/asm/pointer_auth.h \
+  ../include/uapi/linux/prctl.h \
+  ../include/linux/random.h \
+    $(wildcard include/config/arch/random.h) \
+  ../include/linux/once.h \
+  ../include/uapi/linux/random.h \
+  ../include/uapi/linux/ioctl.h \
+  arch/arm64/include/generated/uapi/asm/ioctl.h \
+  ../include/asm-generic/ioctl.h \
+  ../include/uapi/asm-generic/ioctl.h \
+  ../include/linux/irqnr.h \
+  ../include/uapi/linux/irqnr.h \
+  ../include/linux/prandom.h \
+  ../include/linux/percpu.h \
+    $(wildcard include/config/need/per/cpu/embed/first/chunk.h) \
+    $(wildcard include/config/need/per/cpu/page/first/chunk.h) \
+  ../include/linux/siphash.h \
+    $(wildcard include/config/have/efficient/unaligned/access.h) \
+  ../arch/arm64/include/asm/archrandom.h \
+  ../arch/arm64/include/asm/spectre.h \
+  ../arch/arm64/include/asm/fpsimd.h \
+  ../arch/arm64/include/uapi/asm/sigcontext.h \
+  ../include/linux/osq_lock.h \
+  ../include/linux/debug_locks.h \
+  ../include/linux/rwsem.h \
+    $(wildcard include/config/rwsem/spin/on/owner.h) \
+    $(wildcard include/config/debug/rwsems.h) \
+  ../include/linux/spinlock.h \
+  ../include/linux/irqflags.h \
+    $(wildcard include/config/trace/irqflags.h) \
+    $(wildcard include/config/irqsoff/tracer.h) \
+    $(wildcard include/config/preempt/tracer.h) \
+    $(wildcard include/config/trace/irqflags/support.h) \
+  ../arch/arm64/include/asm/irqflags.h \
+  ../include/linux/bottom_half.h \
+  arch/arm64/include/generated/asm/mmiowb.h \
+  ../include/asm-generic/mmiowb.h \
+    $(wildcard include/config/mmiowb.h) \
+  ../arch/arm64/include/asm/spinlock.h \
+  arch/arm64/include/generated/asm/qrwlock.h \
+  ../include/asm-generic/qrwlock.h \
+  arch/arm64/include/generated/asm/qspinlock.h \
+  ../include/asm-generic/qspinlock.h \
+  ../include/linux/rwlock.h \
+    $(wildcard include/config/preempt.h) \
+  ../include/linux/spinlock_api_smp.h \
+    $(wildcard include/config/inline/spin/lock.h) \
+    $(wildcard include/config/inline/spin/lock/bh.h) \
+    $(wildcard include/config/inline/spin/lock/irq.h) \
+    $(wildcard include/config/inline/spin/lock/irqsave.h) \
+    $(wildcard include/config/inline/spin/trylock.h) \
+    $(wildcard include/config/inline/spin/trylock/bh.h) \
+    $(wildcard include/config/uninline/spin/unlock.h) \
+    $(wildcard include/config/inline/spin/unlock/bh.h) \
+    $(wildcard include/config/inline/spin/unlock/irq.h) \
+    $(wildcard include/config/inline/spin/unlock/irqrestore.h) \
+    $(wildcard include/config/generic/lockbreak.h) \
+  ../include/linux/rwlock_api_smp.h \
+    $(wildcard include/config/inline/read/lock.h) \
+    $(wildcard include/config/inline/write/lock.h) \
+    $(wildcard include/config/inline/read/lock/bh.h) \
+    $(wildcard include/config/inline/write/lock/bh.h) \
+    $(wildcard include/config/inline/read/lock/irq.h) \
+    $(wildcard include/config/inline/write/lock/irq.h) \
+    $(wildcard include/config/inline/read/lock/irqsave.h) \
+    $(wildcard include/config/inline/write/lock/irqsave.h) \
+    $(wildcard include/config/inline/read/trylock.h) \
+    $(wildcard include/config/inline/write/trylock.h) \
+    $(wildcard include/config/inline/read/unlock.h) \
+    $(wildcard include/config/inline/write/unlock.h) \
+    $(wildcard include/config/inline/read/unlock/bh.h) \
+    $(wildcard include/config/inline/write/unlock/bh.h) \
+    $(wildcard include/config/inline/read/unlock/irq.h) \
+    $(wildcard include/config/inline/write/unlock/irq.h) \
+    $(wildcard include/config/inline/read/unlock/irqrestore.h) \
+    $(wildcard include/config/inline/write/unlock/irqrestore.h) \
+  ../include/linux/err.h \
+  ../include/linux/srcu.h \
+    $(wildcard include/config/tiny/srcu.h) \
+    $(wildcard include/config/srcu.h) \
+  ../include/linux/rcupdate.h \
+    $(wildcard include/config/preempt/rcu.h) \
+    $(wildcard include/config/tiny/rcu.h) \
+    $(wildcard include/config/tasks/rcu/generic.h) \
+    $(wildcard include/config/rcu/stall/common.h) \
+    $(wildcard include/config/no/hz/full.h) \
+    $(wildcard include/config/rcu/nocb/cpu.h) \
+    $(wildcard include/config/tasks/rcu.h) \
+    $(wildcard include/config/tasks/trace/rcu.h) \
+    $(wildcard include/config/tasks/rude/rcu.h) \
+    $(wildcard include/config/tree/rcu.h) \
+    $(wildcard include/config/debug/objects/rcu/head.h) \
+    $(wildcard include/config/prove/rcu.h) \
+    $(wildcard include/config/rcu/boost.h) \
+    $(wildcard include/config/arch/weak/release/acquire.h) \
+  ../include/linux/rcutree.h \
+  ../include/linux/workqueue.h \
+    $(wildcard include/config/debug/objects/work.h) \
+    $(wildcard include/config/freezer.h) \
+    $(wildcard include/config/sysfs.h) \
+    $(wildcard include/config/wq/watchdog.h) \
+  ../include/linux/timer.h \
+    $(wildcard include/config/debug/objects/timers.h) \
+    $(wildcard include/config/no/hz/common.h) \
+  ../include/linux/ktime.h \
+  ../include/linux/time.h \
+    $(wildcard include/config/arch/uses/gettimeoffset.h) \
+    $(wildcard include/config/posix/timers.h) \
+  ../include/linux/time32.h \
+  ../include/linux/timex.h \
+  ../include/uapi/linux/timex.h \
+  ../arch/arm64/include/asm/timex.h \
+  ../arch/arm64/include/asm/arch_timer.h \
+    $(wildcard include/config/arm/arch/timer/ool/workaround.h) \
+  ../include/clocksource/arm_arch_timer.h \
+    $(wildcard include/config/arm/arch/timer.h) \
+  ../include/linux/timecounter.h \
+  ../include/asm-generic/timex.h \
+  ../include/vdso/time32.h \
+  ../include/vdso/time.h \
+  ../include/linux/jiffies.h \
+  ../include/vdso/jiffies.h \
+  include/generated/timeconst.h \
+  ../include/vdso/ktime.h \
+  ../include/linux/timekeeping.h \
+  ../include/linux/timekeeping32.h \
+  ../include/linux/debugobjects.h \
+    $(wildcard include/config/debug/objects.h) \
+    $(wildcard include/config/debug/objects/free.h) \
+  ../include/linux/android_kabi.h \
+    $(wildcard include/config/android/kabi/reserve.h) \
+  ../include/linux/rcu_segcblist.h \
+  ../include/linux/srcutree.h \
+  ../include/linux/rcu_node_tree.h \
+    $(wildcard include/config/rcu/fanout.h) \
+    $(wildcard include/config/rcu/fanout/leaf.h) \
+  ../include/linux/completion.h \
+  ../include/linux/swait.h \
+  ../include/linux/wait.h \
+  ../include/uapi/linux/wait.h \
+  /home/aju/Android/evox/kernel/motorola/sm7450-modules/qcom/opensource/wlan/qcacld-3.0/cmn/qdf/inc/qdf_notifier.h \
+  /home/aju/Android/evox/kernel/motorola/sm7450-modules/qcom/opensource/wlan/qcacld-3.0/cmn/qdf/inc/qdf_status.h \
+  /home/aju/Android/evox/kernel/motorola/sm7450-modules/qcom/opensource/wlan/qcacld-3.0/cmn/qdf/inc/qdf_hang_event_notifier.h \
+
+/home/aju/Android/evox/kernel/motorola/sm7450-modules/qcom/opensource/wlan/qcacld-3.0/cmn/qdf/src/qdf_hang_event_notifier.o: $(deps_/home/aju/Android/evox/kernel/motorola/sm7450-modules/qcom/opensource/wlan/qcacld-3.0/cmn/qdf/src/qdf_hang_event_notifier.o)
+
+$(deps_/home/aju/Android/evox/kernel/motorola/sm7450-modules/qcom/opensource/wlan/qcacld-3.0/cmn/qdf/src/qdf_hang_event_notifier.o):

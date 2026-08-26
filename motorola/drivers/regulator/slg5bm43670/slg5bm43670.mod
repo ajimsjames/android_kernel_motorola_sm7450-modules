@@ -1,0 +1,2 @@
+/home/aju/Android/evox/kernel/motorola/sm7450-modules/motorola/drivers/regulator/slg5bm43670/slg5bm43670-regulator.o
+

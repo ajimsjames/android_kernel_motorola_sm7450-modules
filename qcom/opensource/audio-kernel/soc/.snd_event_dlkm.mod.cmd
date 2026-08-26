@@ -1,0 +1,1 @@
+cmd_/home/aju/Android/evox/kernel/motorola/sm7450-modules/qcom/opensource/audio-kernel/soc/snd_event_dlkm.mod := { echo  /home/aju/Android/evox/kernel/motorola/sm7450-modules/qcom/opensource/audio-kernel/soc/snd_event.o;  echo; } > /home/aju/Android/evox/kernel/motorola/sm7450-modules/qcom/opensource/audio-kernel/soc/snd_event_dlkm.mod
