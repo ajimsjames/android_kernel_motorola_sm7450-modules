@@ -48,7 +48,7 @@ static int ts_mmi_queued_stop(struct ts_mmi_dev *touch_cdev) {
 		return 0;
 
 	TRY_TO_CALL(pre_suspend);
-	if (touch_cdev->pdata.gestures_enabled || touch_cdev->pdata.cli_gestures_enabled ||
+	if (touch_cdev->gesture_mode_type != 0 || touch_cdev->pdata.gestures_enabled || touch_cdev->pdata.cli_gestures_enabled ||
 		touch_cdev->pdata.support_liquid_detection || touch_cdev->pdata.palm_enabled) {
 #if defined(CONFIG_BOARD_USES_DOUBLE_TAP_CTRL)
 		if(touch_cdev->gesture_mode_type != 0 || touch_cdev->pdata.support_liquid_detection != 0) {
