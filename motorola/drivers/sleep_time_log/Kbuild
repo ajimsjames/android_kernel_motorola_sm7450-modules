@@ -1,6 +1,6 @@
 # add -Wall to try to catch everything we can.
 EXTRA_CFLAGS += -Wall
-EXTRA_CFLAGS += -I$(KERNEL_SRC)/../sm7435-modules/motorola/include
+EXTRA_CFLAGS += -I$(KERNEL_SRC)/../sm7450-modules/motorola/include
 
 sleep_time_log-y += sleep_time_log.o
 obj-m += sleep_time_log.o

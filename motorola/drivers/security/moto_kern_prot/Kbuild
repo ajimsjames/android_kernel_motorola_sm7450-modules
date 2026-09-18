@@ -2,8 +2,8 @@
 # the same code for MTK, and this comment will be removed once this is
 # done.
 ccflags-y += -Wall
-ccflags-y += -I$(KERNEL_SRC)/../sm7435-modules/motorola/drivers/misc/moto_kern_prot
-ccflags-y += -I$(KERNEL_SRC)/../sm7435-modules/motorola/include
+ccflags-y += -I$(KERNEL_SRC)/../sm7450-modules/motorola/drivers/misc/moto_kern_prot
+ccflags-y += -I$(KERNEL_SRC)/../sm7450-modules/motorola/include
 ccflags-y += -I$(KERNEL_SRC)/include
 ccflags-y += -I$(KERNEL_SRC)/
 

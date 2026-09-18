@@ -8,6 +8,6 @@ ifneq ($(filter y,$(CONFIG_AW8965_VIBRATOR_SHORT_WAV_ENABLE)),)
 endif
 
 EXTRA_CFLAGS += -Wall
-EXTRA_CFLAGS += -I$(KERNEL_SRC)/../sm7435-modules/motorola/include
+EXTRA_CFLAGS += -I$(KERNEL_SRC)/../sm7450-modules/motorola/include
 
 obj-m += aw8695.o

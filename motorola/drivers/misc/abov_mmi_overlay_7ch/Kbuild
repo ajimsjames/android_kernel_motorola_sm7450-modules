@@ -1,6 +1,6 @@
 # add -Wall to try to catch everything we can.
 EXTRA_CFLAGS += -Wall
-EXTRA_CFLAGS += -I$(KERNEL_SRC)/../sm7435-modules/motorola/include
+EXTRA_CFLAGS += -I$(KERNEL_SRC)/../sm7450-modules/motorola/include
 EXTRA_CFLAGS += -I$(KERNEL_SRC)/drivers/base
 
 KBUILD_EXTRA_SYMBOLS += $(CURDIR)/$(KBUILD_EXTMOD)/../../sensors/Module.symvers

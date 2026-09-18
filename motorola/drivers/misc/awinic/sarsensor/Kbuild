@@ -1,7 +1,7 @@
 # add -Wall to try to catch everything we can.
 EXTRA_CFLAGS += -Wall
-EXTRA_CFLAGS += -I$(KERNEL_SRC)/../sm7435-modules/motorola/include
-EXTRA_CFLAGS += -I$(KERNEL_SRC)/../sm7435-modules/motorola/include/linux/input/awinic
+EXTRA_CFLAGS += -I$(KERNEL_SRC)/../sm7450-modules/motorola/include
+EXTRA_CFLAGS += -I$(KERNEL_SRC)/../sm7450-modules/motorola/include/linux/input/awinic
 EXTRA_CFLAGS += -I$(KERNEL_SRC)/drivers/base
 
 ifneq ($(filter m y,$(CONFIG_AW96XX_POWER_SUPPLY_ONLINE)),)

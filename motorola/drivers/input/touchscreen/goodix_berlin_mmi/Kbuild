@@ -4,7 +4,7 @@ ifneq ($(filter m y,$(CHANGE_STACK_FRAME_SIZE)),)
 EXTRA_CFLAGS += -Wframe-larger-than=4096
 endif
 EXTRA_CFLAGS += \
-		-I$(KERNEL_SRC)/../sm7435-modules/motorola/include
+		-I$(KERNEL_SRC)/../sm7450-modules/motorola/include
 
 obj-m := goodix_brl_mmi.o
 goodix_brl_mmi-objs := \
